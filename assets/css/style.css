@@ -8,7 +8,37 @@
     border: none;
 }
 
+#logo-image {
+    font-family: Lato, san-serif;
+    text-align: center;
+    margin-top: 1%;
+    top: 20px;
+    float: left;
+    margin-left: 1%;
+}
+
 body {
     font-family: Lato, san-serif;
     font-weight: 300;
+    color:#3a3a3a;
+}
+
+/* Headings and Logo */
+h1, h2 {
+    font-family: Montserrat, san-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+/*style for the logo name Baking Frenzy Cakes */
+#logo-name {
+    float: left;
+    margin-top: 50px;
+}
+
+#menu {
+    font-size: 110%;
+    float: left;
+
 }
