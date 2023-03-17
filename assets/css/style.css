@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
 /* General style rule */
 * {
@@ -14,6 +14,7 @@
     margin-top: 1%;
     top: 20px;
     float: left;
+    margin-right: 1%;
     margin-left: 1%;
 }
 
@@ -35,10 +36,33 @@ h1, h2 {
 #logo-name {
     float: left;
     margin-top: 50px;
+    text-transform: capitalize;
+    font-family: Lora, sans-serif;
+    letter-spacing: 1px;
 }
+
+/* navigation links */
 
 #menu {
     font-size: 110%;
-    float: left;
+    letter-spacing: 4px;
+}
 
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
 }
