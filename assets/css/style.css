@@ -16,6 +16,17 @@
     float: left;
     margin-right: 1%;
     margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+
+#top-banner {
+    width: 100%;
+    height: 150px;    
+    /*padding-top: 10px;   bottom: 25%;*/
+    /*background-color: rgba(234, 54, 9, 0.246);*/
+    background-color: rgba(141, 31, 3, 0.246);
+    /*position: fixed;*/
 }
 
 body {
@@ -42,7 +53,6 @@ h1, h2 {
 }
 
 /* navigation links */
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -71,9 +81,63 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+#hero-outer {
+    height: 70vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-image {
     height: 70vh;
     width: 100vw;
     background: url('../images/cupcakes.jpg') no-repeat center center; 
     background-size: cover;
 }
+
+#welc-banner, #welc-banner h2, #welc-banner h3, #welc-banner h4 {
+    color: #fff;
+    font-family: Lora, sans-serif;
+    text-transform: capitalize;
+}
+
+/* Landing page, welcome banner */
+#welc-banner {
+        font-size: 130%;
+        font-family: Lora, sans-serif;
+        /*text-transform: uppercase;*/
+        width: 100%;
+        height: 200px;
+        letter-spacing: 4px;
+        padding-top: 40px;
+        background-color: rgba(233, 50, 5, 0.246);
+        bottom: 25%;
+        position: absolute;
+        text-align: center;
+    }
+/*
+    font-size: 130%;
+    font-family: Lora, sans-serif;
+    background-color: #ceed08;
+    height: 300px;
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
+
+
+#welc-banner {
+    background-color: #ceed08;
+    height: 300px;
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+    bottom: 30px;
+    right: 150px;
+}
+*/
