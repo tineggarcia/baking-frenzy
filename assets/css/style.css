@@ -70,3 +70,10 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+#hero-image {
+    height: 70vh;
+    width: 100vw;
+    background: url('../images/cupcakes.jpg') no-repeat center center; 
+    background-size: cover;
+}
