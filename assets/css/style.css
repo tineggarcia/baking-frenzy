@@ -166,36 +166,99 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-.cakes-choice {
-    width: 33%;
-    height: 200px;
-    display: inline-block;
-    border-radius: 10px;
-    /*padding: 15px 25px;*/
-    box-sizing: border-box;
-    /*margin: 10px 15px;*/
-    background-position: center;
-    background-position: cover;
-}
-    
-
-
 #cake-menus {
     height: 600px;
-    margin-top: 10px;
+    margin: 30px 80px 20px 160px;
+    justify-content: center;
+    /*margin-right: 60px;*/
+    /*padding: 10px 100px 0 100px;
+    position: relative;*/
 }
+/*
 
+padding-top
+padding-right
+padding-bottom
+padding-left
+So, here is how it works:
+
+If the padding property has four values:
+
+padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px*/
+
+
+.cakes-choice {
+    /*width: 300px;
+    height: 250px;*/
+    width: 25%;
+    height: 40%;
+    display: inline-block;
+    text-align:center ;
+    background-position: center;
+    background-position: cover;
+    /*<img id="classic-img" src="assets/images/weddingmain.jpg" alt="Wedding Cakes">   */
+    margin-right: 10px;
+    border-radius: 30px;
+    border: 10px solid rgba(105, 27, 7, .4);
+    /*padding: 15px 25px;*/
+}
+    
+/*
+/*
 #novelty-menu {
     padding-top: 30px;
     width: 50%;
     float: left;
+}*/
+
+.novelty-img {
+/*    width: 30vw;
+    height: 30vh;*/
+    background-image: url('../images/NoveltyMain.jpg');
+  /*  margin-left: 50px;
+    border-radius: 30px;
+    border: 5px solid red*/
 }
-#novelty-img {
-    width: 80%;
-    height: 50%;
-    margin-left: 50px;
+.wedding-img {
+/*    width: 60%;
+    height: 50%;*/
+    background-image: url('../images/weddingmain.jpeg');
 }
 
+.classic-hdr {
+    width: 100%;
+    height: 100%;
+    /*width: 100px;
+    height: 150px;*/
+  /*  background: url('../images/classiccakesfinal.png') no-repeat center center;*/
+   /* background-repeat: no-repeat;
+    background-position: center;
+    background-position: cover;*/
+    border-radius: 20px;
+}
+.classic-img {
+    width: 100%;
+    background: url('../images/classiccakes.png') no-repeat center center;
+}
+
+
+
+/*
+
+/*    border-radius: 30px;
+    box-sizing: border-box;
+    border: 5px solid red */
+
+    /*position:top ;*/
+    /*float: none;*/
+    /*padding-top: 0%;*/
+    /*margin-left: 50px;
+*/
+/*
 .novelty-hdr {
     width: 80%;
     height:40%;
@@ -209,16 +272,8 @@ h1, h2 {
     width: 33%;
 /*    display: inline;*/
      /* } */
-
-
-#wedding-img {
-    width: 80%;
-    height: 50%;
-    position:top ;
-    float: none;
-    padding-top: 0%;
-    /*margin-left: 50px;*/
-}
+/*
+/*}
 
 .wedding-hdr {
     width: 80%;
@@ -227,39 +282,14 @@ h1, h2 {
     line-height: 10px;
     clear: both;
     margin-bottom: 50px;
-    
-
 }
-
-
-
-
+*/
+/*
 #classic-menu {
     padding-top: 30px;
     width: 33%;
     float: right;
     background-color: silver;
 }
+*/
 
-    
-
-
-
-#classic-img {
-    width: 80%;
-    height: 50%;
-    
-    
-
-}
-
-.classic-hdr {
-    width: 80%;
-    height:40%;
-    
-    line-height: 10px;
-    clear: both;
-    /*margin-bottom: 50px;*/
-    
-
-}
