@@ -137,18 +137,6 @@ h1, h2 {
 }
 
 
-#welc-banner {
-    background-color: #ceed08;
-    height: 300px;
-    width: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-
-    bottom: 30px;
-    right: 150px;
-}
-*/
-
 /*
 .prods-line{
         margin:0;padding:0 10px;
@@ -178,6 +166,19 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+.cakes-choice {
+    width: 33%;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    /*padding: 15px 25px;*/
+    box-sizing: border-box;
+    /*margin: 10px 15px;*/
+    background-position: center;
+    background-position: cover;
+}
+    
+
 
 #cake-menus {
     height: 600px;
@@ -186,16 +187,52 @@ h1, h2 {
 
 #novelty-menu {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: left;
-    background-color: blue;
+}
+#novelty-img {
+    width: 80%;
+    height: 50%;
+    margin-left: 50px;
 }
 
+.novelty-hdr {
+    width: 80%;
+    height:40%;
+    float: right;
+    line-height: 10px;
+    clear: both;
+    margin-bottom: 50px;
+}
+/*
 #wedding-menu {
     width: 33%;
-    margin: 0 auto;
-    background-color: green;
+/*    display: inline;*/
+     /* } */
+
+
+#wedding-img {
+    width: 80%;
+    height: 50%;
+    position:top ;
+    float: none;
+    padding-top: 0%;
+    /*margin-left: 50px;*/
 }
+
+.wedding-hdr {
+    width: 80%;
+    height:40%;
+    float: right;
+    line-height: 10px;
+    clear: both;
+    margin-bottom: 50px;
+    
+
+}
+
+
+
 
 #classic-menu {
     padding-top: 30px;
@@ -204,4 +241,25 @@ h1, h2 {
     background-color: silver;
 }
 
+    
 
+
+
+#classic-img {
+    width: 80%;
+    height: 50%;
+    
+    
+
+}
+
+.classic-hdr {
+    width: 80%;
+    height:40%;
+    
+    line-height: 10px;
+    clear: both;
+    /*margin-bottom: 50px;*/
+    
+
+}
