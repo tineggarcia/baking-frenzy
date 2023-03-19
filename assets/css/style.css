@@ -114,51 +114,14 @@ h1, h2 {
         bottom: 25%;
         position: absolute;
         text-align: center;
-    }
-    #welc-banner h3, #welc-banner h4 {
+}
+
+#welc-banner h3, #welc-banner h4 {
         color: #fff;
         font-family: Lora, sans-serif;
         text-transform: capitalize;
         font-size: 100%;
-    }
-
-/*
-    font-size: 130%;
-    font-family: Lora, sans-serif;
-    background-color: #ceed08;
-    height: 300px;
-    width: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
 }
-
-
-/*
-.prods-line{
-        margin:0;padding:0 10px;
-        background:#fff;
-        display:inline-block;
-    }
-
-#prod-text{    
-        text-align:center;
-        position:relative;
-        z-index:2;
-    }
-    #prod-text:after{
-        content:"";
-        position:absolute;
-        top:50%;
-        left:0;
-        right:0;
-        border-top:solid 1px red;
-        z-index:-1;
-    }
-*/
 
 .prod-text {
     font-family: Lora, san-serif;
@@ -168,128 +131,40 @@ h1, h2 {
 
 #cake-menus {
     height: 600px;
-    margin: 30px 80px 20px 160px;
-    justify-content: center;
-    /*margin-right: 60px;*/
-    /*padding: 10px 100px 0 100px;
-    position: relative;*/
+    width: 80%;
+    display: flex; 
+    margin: 10px 50px 80px 160px;
+   	justify-content: center;
 }
-/*
-
-padding-top
-padding-right
-padding-bottom
-padding-left
-So, here is how it works:
-
-If the padding property has four values:
-
-padding: 25px 50px 75px 100px;
-top padding is 25px
-right padding is 50px
-bottom padding is 75px
-left padding is 100px*/
-
 
 .cakes-choice {
-    /*width: 300px;
-    height: 250px;*/
-    width: 25%;
-    height: 40%;
-    display: inline-block;
-    text-align:center ;
-    background-position: center;
-    background-position: cover;
-    /*<img id="classic-img" src="assets/images/weddingmain.jpg" alt="Wedding Cakes">   */
-    margin-right: 10px;
-    border-radius: 30px;
-    border: 10px solid rgba(105, 27, 7, .4);
-    /*padding: 15px 25px;*/
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 25px;
+    width:300px;
+    height:280px;
+    border-radius: 20px;
+    display: inline-block;   
+    /*border: 10px solid rgba(102, 22, 2, 0.746);    */
+    border: 10px solid rgba(172, 36, 2, 0.4);
 }
-    
-/*
-/*
-#novelty-menu {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
-}*/
+ 
+.novelty-hdr {
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin-top: 0;
+ }
 
-.novelty-img {
-/*    width: 30vw;
-    height: 30vh;*/
-    background-image: url('../images/NoveltyMain.jpg');
-  /*  margin-left: 50px;
-    border-radius: 30px;
-    border: 5px solid red*/
-}
-.wedding-img {
-/*    width: 60%;
-    height: 50%;*/
-    background-image: url('../images/weddingmain.jpeg');
+.wedding-hdr {
+    width:100%;
+    height:100%;
+    border-radius: 10px;
 }
 
 .classic-hdr {
     width: 100%;
     height: 100%;
-    /*width: 100px;
-    height: 150px;*/
-  /*  background: url('../images/classiccakesfinal.png') no-repeat center center;*/
-   /* background-repeat: no-repeat;
-    background-position: center;
-    background-position: cover;*/
-    border-radius: 20px;
+    border-radius: 10px;
 }
-.classic-img {
-    width: 100%;
-    background: url('../images/classiccakes.png') no-repeat center center;
-}
-
-
-
-/*
-
-/*    border-radius: 30px;
-    box-sizing: border-box;
-    border: 5px solid red */
-
-    /*position:top ;*/
-    /*float: none;*/
-    /*padding-top: 0%;*/
-    /*margin-left: 50px;
-*/
-/*
-.novelty-hdr {
-    width: 80%;
-    height:40%;
-    float: right;
-    line-height: 10px;
-    clear: both;
-    margin-bottom: 50px;
-}
-/*
-#wedding-menu {
-    width: 33%;
-/*    display: inline;*/
-     /* } */
-/*
-/*}
-
-.wedding-hdr {
-    width: 80%;
-    height:40%;
-    float: right;
-    line-height: 10px;
-    clear: both;
-    margin-bottom: 50px;
-}
-*/
-/*
-#classic-menu {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: silver;
-}
-*/
-
