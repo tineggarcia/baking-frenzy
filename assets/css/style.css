@@ -95,10 +95,18 @@ h1, h2 {
     background-size: cover;
 }
 
-#welc-banner, #welc-banner h2, #welc-banner h3, #welc-banner h4 {
+#welc-banner, #welc-banner h2{
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0px; 
+}
+
+#welc-banner h3, #welc-banner h4 {
     color: #fff;
     font-family: Lora, sans-serif;
     text-transform: capitalize;
+    font-size: 2rem;
 }
 
 /* Landing page, welcome banner */
@@ -110,23 +118,33 @@ h1, h2 {
         height: 200px;
         letter-spacing: 4px;
         padding-top: 40px;
-        background-color: rgba(233, 50, 5, 0.246);
+        background-color: rgba(233, 50, 5, 0.4);
         bottom: 25%;
         position: absolute;
         text-align: center;
 }
 
-#welc-banner h3, #welc-banner h4 {
-        color: #fff;
-        font-family: Lora, sans-serif;
-        text-transform: capitalize;
-        font-size: 100%;
-}
-
+/*What are you looking for text with horizontal rule */
 .prod-text {
     font-family: Lora, san-serif;
     font-size: 25px;
     letter-spacing: 4px;
+}
+
+button {
+    width: 220px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Lora, sans-serif;
+    padding: 12px 10px;
+    background: rgba(146, 31, 2, 0.901);
+    /*background: rgba(60, 13, 2, 0.8);*/
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 25px;
+    margin-left:35px;
+    cursor: pointer;
 }
 
 #cake-menus {
@@ -147,6 +165,7 @@ h1, h2 {
     display: inline-block;   
     /*border: 10px solid rgba(102, 22, 2, 0.746);    */
     border: 10px solid rgba(172, 36, 2, 0.4);
+
 }
  
 .novelty-hdr {
@@ -155,6 +174,11 @@ h1, h2 {
     border-radius: 10px;
     padding-top: 0px;
     margin-top: 0;
+ }
+
+ .novelty-hdr button {
+  /*  margin-top: 10px;*/
+ /*   margin-left: 38px;*/
  }
 
 .wedding-hdr {
