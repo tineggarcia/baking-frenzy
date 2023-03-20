@@ -278,28 +278,47 @@ button {
 
 
 .about {
-    height: 500px;
+    border: 10px solid crimson;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
 }
 
-#about-container {
-    /*width: fit-conten/*t;*/
-    height: 35px;
-    background-color: rgba(233, 50, 5, 0.2);
-    padding:0;
-    text-align: center;
-    justify-content: center;
+.about-us-title {
+    /* letter-spacing: 1px; margin-top: 5px; font-size: 2rem; display: bold; */
+
+    text-align: center; 
+    font-family: Montserrat, sans-serif; 
+    font-size: 2rem;
+    /* font-weight: 50px; */
+    /*width: fit-content;*/
+    letter-spacing: 10px;
+    /* font-size: 80px; */
+    font-weight: 1200;
+    /* font-family: Montserrat, san-serif; */
+    /* font-size: 16px; */
+    
+    /*height: 50px;*/
+    color:black;
+    display: block;
 }
+
 
 #about-container > h2{
     /*width: fit-content;*/
-    letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 80px;
     font-weight: 1200;
     
     /*height: 50px;*/
     color:black;
     display: block;
 }
+
+.about-us-items{
+    column-count: 2;
+    height: 500px;
+ }
+
 
 /*
 #about-container h2{
@@ -319,24 +338,59 @@ button {
 }
 */
 
-
+/* footer */
 footer {
-    width: 150px;
+  height: 10vh;
+  background-color: rgba(233, 50, 5, 0.2);
+  display: flex;
+  margin-top: 0px;
 }
 
-.social-networks {
+footer ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(233, 50, 5, 0.2);
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+footer ul i {
+  font-size: 160%;
+  margin: 10px;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+footer ul i:hover {
+  color: #da48a4;
+}
+
+
+
+
+
+
+/*footer {
+    height: 60px;
+}
+
+.social-links {
     text-align: center;
     border: 5px solid chocolate;
 }
 
-
-.social-networks > li {
+.social-links > li {
     display: inline;
 }
 
-.social-networks i {
-    font-size: 160%;
+.social-links i {
+    font-size: 60%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
+*/
