@@ -151,13 +151,20 @@ button {
     cursor: pointer;
 }
 
+/*style for what are you looking for text on the landing page*/
+#cakes-title{
+    margin-top: 25px;
+ }
+
+ /*style for the cake product types */
 #cake-menus {
-    height: 600px;
+    height: 500px;
     /*width: 80%;*/
     width: 65%;
     display: flex; 
-    margin: 10px 50px 80px 230px;
+    margin: 70px 50px 80px 230px;
    	justify-content: center;
+    border: 5px solid coral;
 }
 
 .cakes-choice {
@@ -211,13 +218,13 @@ button {
 #photos > img {
     margin-top: 15px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     /*margin-right: 400px;*/
     border-radius: 10px;
     border: 1px solid rgba(172, 36, 2, 0.4);
     /*margin-left: 35px;*/
     display: inline-block;
-    width: 98%;
+    width: 100%;
 }
 
 /*Gallery.html page main image background */
@@ -267,15 +274,45 @@ button {
     bottom: 25%;
     position: absolute;
     text-align: center;
-*/
+*/    
 
 
-    /*background-color: aqua;
-    height:300px;
-    border: 10px solid, black;*/
-   
-    /*background-position: top center;
-    position: relative;
+
+
+#about-container {
+    /*width: fit-conten/*t;*/
+    height: 35px;
+    background-color: rgba(233, 50, 5, 0.2);
+    padding:0;
+    text-align: center;
+    justify-content: center;
+}
+
+#about-container > h2{
+    /*width: fit-content;*/
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 1200;
+    
+    /*height: 50px;*/
+    color:black;
+    display: block;
+}
+
+/*
+#about-container h2{
+    width: fit-content;
+    height: 30px;
+    letter-spacing: 2px;
+    background-color: coral;
+
     
 }
 
+#about-container > h3{
+    width: 400px;
+    height: 200px;
+    border: 5px solid black;
+    letter-spacing: 2px;
+}
+*/
