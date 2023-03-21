@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&family=Lora:ital,wght@1,500&display=swap');
 
 
-/* General style rule */
+/* General style rule/settings */
 * {
     margin: 0;
     padding: 0;
     border: none;
+    /*box-sizing: border-box; */
 }
 
 /*Baking Frenzy main logo*/
@@ -206,7 +207,58 @@ button {
     border-radius: 10px;
 }
 
+/* Style for GALLERY PHOTOS */
 /* gallery photos */
+.main-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     margin: 40px 20px 0 60px; 
+    font-family: Montserrat, sans-serif;
+    width: 90%;
+    border: 5px solid red;
+}
+
+.main-container .sub-heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.main-container .sub-heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    padding-bottom: 10px;
+}
+
+.main-container .sub-heading h3 span{
+    font-weight: bolder;
+    font-family: Lora, sans-serif;
+ /*   border-bottom: 3px solid #222;*/
+}
+
+.main-container .contents-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-container .contents-box .gallery-photos {
+    display: flex;
+    flex-direction: column;
+    width: 24.5%;
+}
+
+.main-container .contents-box .gallery-photos img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+/*old gallery page */
 #photos {
     clear: both;
     line-height: 0;
@@ -431,3 +483,6 @@ footer ul i:hover {
     color: lightcoral;
 }
 
+@media screen and (max-width: 700px) {
+     
+} 
