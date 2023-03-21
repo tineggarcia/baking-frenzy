@@ -28,7 +28,7 @@
                     <a href="gallery.html">Gallery </a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="index.html#about">About</a>
                 </li>
                 <li>
                     <a href="index.html">Home</a>
@@ -39,20 +39,46 @@
     <main id="form-main">
         <section class="form-section">
             <form class="form-signup" method="POST" action="https://formdump.codeinstitute.net/" >
-                <h2>Sign up, Join our mailing list!  <i class="fas fa-heartbeat"></i></h2>
-                    <label for="fname" id="fname" value>First Name</label><br>
+                <h2>Sign up, Join our mailing list!</h2>
+                    <label class="text-label" for="fname" id="fname" value>First Name</label><br>
                     <input class="text-input" id="fname" name="first_name" type="text" required><br>
-                    <label for="lname" id="lname">Last Name</label><br>
+                    <label class="text-label" for="lname" id="lname">Last Name</label><br>
                     <input class="text-input" id="lname" name="last_name" type="text" required><br>
                 
-                    <label for="email" id="email">Email Address</label><br>
+                    <label class="text-label" for="email" id="email">Email Address</label><br>
                     <input class="text-input" id="email" name="email_address" type="email" required><br>
 
-                    <label for="yes-update" id="yes-update">
-                        Yes, I would like to receive marketing communications and agree to Baking Frenzy's privacy policy.</label><br>
-                    <input class="text-input" id="yes-update" name="yes_update" type ="checkbox" required><br>
+                    <input class="chkbox-input" id="yes-update" name="yes_update" type ="checkbox" required>
+                    <label class="text-label" for="yes-update" id="yes-update">
+                    Yes, I would like to receive marketing communications and agree<br> 
+                    to Baking Frenzy's privacy policy.</label><br>
             </form>
         </section>
     </main>
 </body>
- </html>
+
+
+<footer>
+    <ul class="social-links">
+        <li><a href="https://facebook.com" target="_blank" rel="noopener" 
+            aria-label="Visit our Facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+        </li>       
+        <li>
+            <a href="https://youtube.com" target="_blank" rel="noopener" 
+            aria-label="Visit our Youtube Channel (opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener" 
+            aria-label="Visit our Instagram page(opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener" 
+            aria-label="Visit our Twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+    </ul>
+</footer>
+
+<!-- font awesome script -->
+<script src="https://kit.fontawesome.com/4f2d5b7361.js" crossorigin="anonymous"></script>
+</body>
+</html>

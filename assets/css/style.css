@@ -379,9 +379,46 @@ footer ul i:hover {
     max-width: 400px;
     position: absolute;
     padding: 30px;
+    border: 5px solid rgba(141, 31, 3, .9);
+    border-radius: 10px;
 }
 
-.signup-form h2 {
+.form-signup h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
+
+.text-label {
+    font-family: Lora, sans-serif;
+}
+.text-input {
+    background: transparent;
+    width: 100%;
+    color: #fafafa;*/
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    font-family: Lora, sans-serif;
+} 
+
+.text-input:hover {
+    border-color: #f16c6b ;
+}
+
+.join-button {
+     margin-top: 20px;
+     border-radius: 2px;
+     padding: 15px 32px 15px 32px;
+     text-align: center;
+     font-size: 100%;
+     background-color: #f16c6b;
+     color:  #fafafa;
+     display: block;
+ }
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
