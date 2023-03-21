@@ -6,19 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Home of novelty cakes, occasion cakes and other classic cakes by Baking Frenzy Cakes">
+          content="Home of novelty cakes, occasion cakes and other classic cakes by Baking Frenzy Cakes">
     <meta name="keywords" content="baking, cakes, custom cakes, novelty cakes, occasion cakes, classic cakes">
-
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Baking Frenzy Cakes</title>
 </head>
 <body >
-
     <header id="top-banner">
         <a href="index.html">
             <div>     
-                <img id="logo-image" width=210 height= 130 src="assets/images/bakingfrenzy-logo.png" alt="Baking Frenzy Logo">        
-                <h1 id="logo-name">Baking Frenzy Cakes</h1>
+                <span><img id="logo-image" width=210 height= 130 src="assets/images/bakingfrenzy-logo.png" alt="Baking Frenzy Logo"></span>      
+                <span><h1 id="logo-name">Baking Frenzy Cakes</h1></span>
             </div>
         </a>       
         <nav>
@@ -38,3 +36,23 @@
             </ul>
         </nav>
     </header>
+    <main id="form-main">
+        <section class="form-section">
+            <form class="form-signup" method="POST" action="https://formdump.codeinstitute.net/" >
+                <h2>Sign up, Join our mailing list!  <i class="fas fa-heartbeat"></i></h2>
+                    <label for="fname" id="fname" value>First Name</label><br>
+                    <input class="text-input" id="fname" name="first_name" type="text" required><br>
+                    <label for="lname" id="lname">Last Name</label><br>
+                    <input class="text-input" id="lname" name="last_name" type="text" required><br>
+                
+                    <label for="email" id="email">Email Address</label><br>
+                    <input class="text-input" id="email" name="email_address" type="email" required><br>
+
+                    <label for="yes-update" id="yes-update">
+                        Yes, I would like to receive marketing communications and agree to Baking Frenzy's privacy policy.</label><br>
+                    <input class="text-input" id="yes-update" name="yes_update" type ="checkbox" required><br>
+            </form>
+        </section>
+    </main>
+</body>
+ </html>

@@ -359,3 +359,29 @@ footer ul i {
 footer ul i:hover {
   color: #da48a4;
 }
+
+/*Style for Sign Up Form */
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url('../images/cakencandles.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.form-signup {
+    margin: 150px 10% 0 0;
+    left: 10%;
+    color: #fff;
+    background-color: rgba(146, 31, 2, 0.6501);
+    max-width: 400px;
+    position: absolute;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
