@@ -165,7 +165,6 @@ button {
     display: flex; 
     margin: 70px 50px 80px 230px;
    	justify-content: center;
-    border: 5px solid coral;
 }
 
 .cakes-choice {
@@ -278,7 +277,6 @@ button {
 */    
 
 .about {
-    border: 10px solid crimson;
     /* height: 750px; */
     justify-content: center;
     align-items: center;
@@ -294,7 +292,7 @@ button {
     display: block;
 }
 
-.about-us-items{
+.about-us-items {
         /*justify-content: center;*/
     column-count: 2;
     /* height: 500px; */
@@ -309,7 +307,7 @@ button {
 .about-us-texts{
    width: 100%;
     height: 320px;
-    border: 5px solid black;
+    
     font-family: Marcellus, sans-serif;
     font-size: xx-small;
     letter-spacing: 1px;
