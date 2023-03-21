@@ -360,22 +360,21 @@ footer ul i:hover {
   color: #da48a4;
 }
 
-/*Style for Sign Up Form */
-/* Form */
-
+/*Style for Sign-Up Form */
 .form-section {
     clear: left;
     background: url('../images/cakencandles.jpg');
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 850px;
 }
 
 .form-signup {
-    margin: 150px 10% 0 0;
+    /*margin: 130px 10% 0 0;*/
+    margin: 100px 10% 0 0;
     left: 10%;
     color: #fff;
-    background-color: rgba(146, 31, 2, 0.6501);
+    background-color: rgba(146, 31, 2, 0.6);
     max-width: 400px;
     position: absolute;
     padding: 30px;
@@ -386,15 +385,18 @@ footer ul i:hover {
 .form-signup h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
 }
 
 .text-label {
     font-family: Lora, sans-serif;
 }
+
 .text-input {
     background: transparent;
     width: 100%;
-    color: #fafafa;*/
+    color: #fafafa;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
@@ -403,22 +405,29 @@ footer ul i:hover {
 } 
 
 .text-input:hover {
-    border-color: #f16c6b ;
+    /*border-color: #f16c6b ;*/
+    border-color: lightcoral;
 }
 
-.join-button {
+.button-submit {
+     font-family: Pridi, sans-serif;
      margin-top: 20px;
      border-radius: 2px;
-     padding: 15px 32px 15px 32px;
+     padding: 10px 30px 10px 30px;
      text-align: center;
-     font-size: 100%;
-     background-color: #f16c6b;
+     /*font-size: 100%;*/
+     font-size: 1.2rem;
+     font-weight: bold;
+     letter-spacing: 2px;
+     background-color:  rgba(92, 21, 3, 0.65);
      color:  #fafafa;
      display: block;
+     border: 2px solid rgba(141, 31, 3, 9.246);;
  }
 
-.join-button:hover {
+.button-submit:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    /*color: #f16c6b;*/
+    color: lightcoral;
 }
 
