@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Lora:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Lora:ital,wght@1,500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Lora:ital,wght@1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&family=Lora:ital,wght@1,500&display=swap');
+
 
 /* General style rule */
 * {
@@ -282,6 +284,16 @@ button {
     align-items: center;
 }
 
+#about-container {
+    width: 90%; 
+    padding-left: 5%; 
+    padding-right: 5%; 
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    /*padding: 2% 5% 2% 5%; */
+    /*background: transparent url('../images/cupcakemove.gif') center center;*/
+} 
+
 /*class for ABOUT US title text */
 .about-us-title {
     text-align: center; 
@@ -305,12 +317,17 @@ button {
  }
 
 .about-us-texts{
-   width: 100%;
+    width: 100%;
     height: 320px;
-    
-    font-family: Marcellus, sans-serif;
-    font-size: xx-small;
-    letter-spacing: 1px;
+    /*justify-content: center;*/
+    text-align:center;
+    font-family: Pridi, sans-serif;
+    /*font-family: Marcellus, sans-serif;*/
+    font-size: 18px;
+    letter-spacing: 0px;
+    background: rgba(146, 31, 2, 0.6501);
+    color: white;
+    /*background-color: rgba(233, 50, 5, 0.7);*/
 }
 
 /* footer */
