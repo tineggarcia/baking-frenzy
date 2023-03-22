@@ -44,6 +44,7 @@ h2 {
     /*background-color: rgba(234, 54, 9, 0.246);*/
     background-color: rgba(141, 31, 3, 0.246);
     /*position: fixed;*/
+    /* border: 5px solid coral; */
 }
 
 /*Baking Frenzy main logo*/
@@ -55,7 +56,6 @@ h2 {
     width:auto;
     height: 80px; 
 }
-
 
 /*style for the logo name Baking Frenzy Cakes */
 #logo-name {
@@ -104,10 +104,10 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-     margin: 40px 20px 0 60px; 
+    margin: 40px 20px 0 60px; 
     font-family: Montserrat, sans-serif;
     width: 90%;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .main-container .sub-heading{
@@ -202,11 +202,12 @@ footer ul i:hover {
     .main-container { 
         margin: 2% 1% 0 1rem; 
         width: 95%;
-        border: 5px solid red;
+        /* border: 5px solid red; */
     }
 } 
 
-/* media query for responsive - tablet size */
+/*MEDIA QUERY FOR RESPONSIVE - 
+/* media query for responsive - mobile size */
 @media screen and (max-width: 750px) {
     h1 {
         font-size: 1rem;
@@ -222,20 +223,25 @@ footer ul i:hover {
     }
 
     #menu {
-        clear: both;
+        /* clear: both; */
         font-size: .8rem;
+        line-height: 48px;
+        /* margin-bottom: 10px; */
     }
 
-    #menu li {
+    /* #menu li {
         float: left;
         margin-left: 2%;
         line-height: 20px;
-    }
+    } */
 
     .main-container .sub-heading h3{
-        font-size: 2rem;
-        /* font-weight: bolder;
-        border-bottom: 3px solid #222;
-        padding-bottom: 10px; */
+        font-size: 1.8rem;
+        border-bottom: 3px solid black;
+        margin-top: 4%; 
     }
+
+/* Media query for 550 down*/
+/*nav link HOME drops down 1 line*/
+
 } 
