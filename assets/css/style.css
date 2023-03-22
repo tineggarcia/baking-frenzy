@@ -12,40 +12,55 @@
     /*box-sizing: border-box; */
 }
 
-/*Baking Frenzy main logo*/
-#logo-image {
-    font-family: Lato, san-serif;
-    text-align: center;
-    margin-top: 1%;
-    top: 20px;
-    float: left;
-    margin-right: 1%;
-    margin-left: 1%;
-    margin-bottom: 1%;
-}
+/* style for body (generic)
+body{
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+} */
 
-/*top portion section background of the logo */
-#top-banner {
-    width: 100%;
-    height: 150px;    
-    /*padding-top: 10px;   bottom: 25%;*/
-    /*background-color: rgba(234, 54, 9, 0.246);*/
-    background-color: rgba(141, 31, 3, 0.246);
-    /*position: fixed;*/
+/* Headings and Logo */
+h1 {
+    font-family: Montserrat, san-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /*font-size: 2rem;*/
+    color: #252525;
 }
 
 /* Headings and Logo */
-h1, h2 {
+h2 {
     font-family: Montserrat, san-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
+/*Top portion(rectangle block) section background of the logo */
+#top-banner {
+    width: 100%;
+    height: 90px;    
+    /*padding-top: 10px;   bottom: 25%;*/
+    /*background-color: rgba(234, 54, 9, 0.246);*/
+    background-color: rgba(141, 31, 3, 0.246);
+    /*position: fixed;*/
+}
+
+/*Baking Frenzy main logo*/
+#logo-image {
+    float: left;
+    /*font-family: Montserrat, san-serif;*/
+    /*text-align: center;*/
+    margin: .5% 1% 1% 1%;
+    width:auto;
+    height: 80px; 
+}
+
+
 /*style for the logo name Baking Frenzy Cakes */
 #logo-name {
     float: left;
-    margin-top: 50px;
+    margin-top: 2%;
     text-transform: capitalize;
     font-family: Lora, sans-serif;
     letter-spacing: 1px;
@@ -53,19 +68,19 @@ h1, h2 {
 
 /* navigation links */
 #menu {
-    font-size: 110%;
-    letter-spacing: 3px;
+    font-size: 1rem;
+    letter-spacing: 2px;
     font-family: Montserrat, san-serif;
 }
 
 #menu, #logo {
-    line-height: 150px;
+    line-height: 90px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 2%;
 }
 
 #menu a {
@@ -79,132 +94,6 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-}
-
-#hero-outer {
-    height: 70vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-image {
-    height: 70vh;
-    width: 100vw;
-    background: url('../images/cupcakes.jpg') no-repeat center center; 
-    background-size: cover;
-}
-
-/* Landing page, welcome banner */
-#welc-banner {
-    font-size: 200%;
-    font-family: Lora, sans-serif;
-    width: 100%;
-    height: 200px;
-    letter-spacing: 4px;
-    padding-top: 40px;
-    background-color: rgba(233, 50, 5, 0.4);
-    bottom: 25%;
-    position: absolute;
-    text-align: center;
-    align-items: center;
-}
-
-/*#welc-banner, #welc-banner h2{ commented temporarily to check if welc-banner needed here on this code*/ 
-#welc-banner h2 {    
-    color: #fff;
-    font-family: Montserrat, sans-serif;
-    display: block;
-    /*width: fit-content;*/ /*this code makes my h2 not centered for some reason */
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-    letter-spacing: 0px;
-    position: relative;
-}
-
-#welc-banner h3 {
-    color: #fff;
-    font-family: Lora, sans-serif;
-    text-transform: capitalize;
-    font-size: 2rem;
-}
-
-/*What are you looking for text with horizontal rule */
-.prod-text {
-    font-family: Lora, san-serif;
-    font-size: 25px;
-    letter-spacing: 4px;
-}
-
-button {
-    width: 220px;
-    color: whitesmoke;
-    font-size: 16px;
-    font-family: Lora, sans-serif;
-    padding: 12px 10px;
-    background: rgba(146, 31, 2, 0.901);
-    /*background: rgba(60, 13, 2, 0.8);*/
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 25px;
-    margin-left:35px;
-    cursor: pointer;
-}
-
-/*style for what are you looking for text on the landing page*/
-#cakes-title{
-    margin-top: 25px;
- }
-
- /*style for the cake product types */
-#cake-menus {
-    height: 500px;
-    /*width: 80%;*/
-    width: 65%;
-    display: flex; 
-    margin: 70px 50px 80px 230px;
-   	justify-content: center;
-}
-
-.cakes-choice {
-    margin-top: 25px;
-    margin-left: 30px;
-    margin-right: 25px;
-    width:300px;
-    height:280px;
-    border-radius: 20px;
-    display: inline-block;   
-    /*border: 10px solid rgba(102, 22, 2, 0.746);    */
-    border: 10px solid rgba(172, 36, 2, 0.4);
-
-}
- 
-.novelty-hdr {
-    width:100%;
-    height:100%;
-    border-radius: 10px;
-    padding-top: 0px;
-    margin-top: 0;
- }
-
- .novelty-hdr button {
-  /*  margin-top: 10px;*/
- /*   margin-left: 38px;*/
- }
-
-.wedding-hdr {
-    width:100%;
-    height:100%;
-    border-radius: 10px;
-}
-
-.classic-hdr {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
 }
 
 /* Style for GALLERY PHOTOS */
@@ -257,130 +146,6 @@ button {
     border-radius: 5px;
 }
 
-
-/*old gallery page */
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 6;
-    column-gap: 1;
-    padding: 0;
-    justify-content: center;
-}
-
-#photos > img {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    /*margin-left: 10px;*/
-    /*margin-right: 400px;*/
-    border-radius: 10px;
-    border: 1px solid rgba(172, 36, 2, 0.4);
-    /*margin-left: 35px;*/
-    display: inline-block;
-    width: 100%;
-}
-
-/*Gallery.html page main image background */
-#gall-outer {
-    /*height: 500vh;*/
-    height:max-content;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    margin:0;
-}
-
-#gall-hero-img {
-    height: 90vh;
-    width: 100vw;
-    background-image: url('../images/cakelightback.jpg');
-    background-size: cover;
-    position: relative;
-    z-index: 1;
-}
-
-#gall-hero-img::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 88%;
-    width: 95%;
-    background-color: rgba(233, 50, 5, 0.2);
-    opacity: .7;
-    margin-top: 38px;
-    margin-left: 40px;
-    margin-right: 200px;
-    justify-content: center;
-    z-index: -1;
-}
-
-/*#gall-back-img {
-    background-color: rgba(233, 50, 5, 0.3);
-    /*justify-content: center;*/
-/*    margin-left: 90px;
-    margin-right: 40px;
-    margin-top: 50px;
-    width: 85%;
-    height: 85%;
-    padding-top: 200px;
-    bottom: 25%;
-    position: absolute;
-    text-align: center;
-*/    
-
-.about {
-    /* height: 750px; */
-    justify-content: center;
-    align-items: center;
-}
-
-#about-container {
-    width: 90%; 
-    padding-left: 5%; 
-    padding-right: 5%; 
-    padding-top: 2%; 
-    padding-bottom: 2%;
-    /*padding: 2% 5% 2% 5%; */
-    /*background: transparent url('../images/cupcakemove.gif') center center;*/
-} 
-
-/*class for ABOUT US title text */
-.about-us-title {
-    text-align: center; 
-    font-family: Montserrat, sans-serif; 
-    font-size: 2rem;
-    letter-spacing: 1px;
-    color:black;
-    display: block;
-}
-
-.about-us-items {
-        /*justify-content: center;*/
-    column-count: 2;
-    /* height: 500px; */
-    /* width: fit-content; */
-    column-gap: 1;
- }
-
- .about-us-videos{
-    width: 100%;
- }
-
-.about-us-texts{
-    width: 100%;
-    height: 320px;
-    /*justify-content: center;*/
-    text-align:center;
-    font-family: Pridi, sans-serif;
-    /*font-family: Marcellus, sans-serif;*/
-    font-size: 18px;
-    letter-spacing: 0px;
-    background: rgba(146, 31, 2, 0.6501);
-    color: white;
-    /*background-color: rgba(233, 50, 5, 0.7);*/
-}
-
 /* footer */
 footer {
   height: 10vh;
@@ -412,77 +177,65 @@ footer ul i:hover {
   color: #da48a4;
 }
 
-/*Style for Sign-Up Form */
-.form-section {
-    clear: left;
-    background: url('../images/cakencandles.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 850px;
-}
 
-.form-signup {
-    /*margin: 130px 10% 0 0;*/
-    margin: 100px 10% 0 0;
-    left: 10%;
-    color: #fff;
-    background-color: rgba(146, 31, 2, 0.6);
-    max-width: 400px;
-    position: absolute;
-    padding: 30px;
-    border: 5px solid rgba(141, 31, 3, .9);
-    border-radius: 10px;
-}
+/* media query for responsive - tablet size */
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    #top-banner {
+        height: 80px;    
+        /* width: 95%; */
+    }
+    #logo-name {
+        margin-top: 2.5%;
+    }
+    #logo-image {
+        height: 70px; 
+    }
 
-.form-signup h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-    font-family: Montserrat, sans-serif;
-    text-transform: capitalize;
-}
-
-.text-label {
-    font-family: Lora, sans-serif;
-}
-
-.text-input {
-    background: transparent;
-    width: 100%;
-    color: #fafafa;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    font-family: Lora, sans-serif;
+    #menu {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    
+    .main-container { 
+        margin: 2% 1% 0 1rem; 
+        width: 95%;
+        border: 5px solid red;
+    }
 } 
 
-.text-input:hover {
-    /*border-color: #f16c6b ;*/
-    border-color: lightcoral;
-}
+/* media query for responsive - tablet size */
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 1rem;
+    }
+    #top-banner {
+        height: 55px;    
+    }
+    #logo-name {
+        margin-top: 2%;
+    }
+    #logo-image {
+        height: 50px; 
+    }
 
-.button-submit {
-     font-family: Pridi, sans-serif;
-     margin-top: 20px;
-     border-radius: 2px;
-     padding: 10px 30px 10px 30px;
-     text-align: center;
-     /*font-size: 100%;*/
-     font-size: 1.2rem;
-     font-weight: bold;
-     letter-spacing: 2px;
-     background-color:  rgba(92, 21, 3, 0.65);
-     color:  #fafafa;
-     display: block;
-     border: 2px solid rgba(141, 31, 3, 9.246);;
- }
+    #menu {
+        clear: both;
+        font-size: .8rem;
+    }
 
-.button-submit:hover {
-    background-color: #fafafa;
-    /*color: #f16c6b;*/
-    color: lightcoral;
-}
+    #menu li {
+        float: left;
+        margin-left: 2%;
+        line-height: 20px;
+    }
 
-@media screen and (max-width: 700px) {
-     
+    .main-container .sub-heading h3{
+        font-size: 2rem;
+        /* font-weight: bolder;
+        border-bottom: 3px solid #222;
+        padding-bottom: 10px; */
+    }
 } 
