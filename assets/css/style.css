@@ -517,7 +517,8 @@ footer ul i:hover {
     width: 100%;
     aspect-ratio: 1 / 1;
     border: 2px solid coral;
-    object-fit:cover;
+    /* object-fit:cover; */
+    object-fit:fill;
     border-radius: 15px;
 }
 
