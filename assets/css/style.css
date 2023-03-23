@@ -293,19 +293,19 @@ button {
     background: #3a3a3a;
     padding: 15ps 40px;
     border-radius: 5px; */
-        font-family: Pridi, sans-serif;
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 10px 30px 10px 30px;
-        text-align: center;
-        font-size: 1.3rem;
-        font-weight: bold;
-        letter-spacing: 2px;
-        background-color:  rgba(214, 99, 70, 0.65);
-        color:  #fafafa;
-        display: block;
-        border: 2px solid rgba(141, 31, 3, 9.246);
-    }
+    font-family: Pridi, sans-serif;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color:  rgba(214, 99, 70, 0.65);
+    color:  #fafafa;
+    display: block;
+    border: 2px solid rgba(141, 31, 3, 9.246);
+}
 /* Gallery style ends here */
 
 
@@ -516,9 +516,9 @@ footer ul i:hover {
 .product-card > img{
     width: 100%;
     aspect-ratio: 1 / 1;
-    border: 2px solid coral;
-    /* object-fit:cover; */
-    object-fit:fill;
+    border: 2px solid rgba(141, 31, 3, .9);
+    object-fit:cover center center;
+    /* object-fit:fill; */
     border-radius: 15px;
 }
 
@@ -526,8 +526,11 @@ footer ul i:hover {
     background: white;
     align-self: end;
     box-shadow: 0 .25rem 1rem rgb( 0 0 0 / .1);
+    font-family: Montserrat, sans-serif;
+    letter-spacing: -.8px;
+    text-align: center;
     /* margin: .5rem .5rem 2rem; */
-    /* padding: .5rem;  */
+    padding: 1rem;
 }
 /* End of Style for CAKE PRODUCS ITEMS USING GRID */
 
