@@ -230,7 +230,7 @@ button {
      margin: 40px 20px 0 60px; 
     font-family: Montserrat, sans-serif;
     width: 90%;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .main-container .sub-heading{

@@ -96,11 +96,145 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+
+
+/* codes import from old css file starts here */ 
+#hero-outer {
+    height: 70vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 70vh;
+    width: 100vw;
+    background: url('../images/cupcakes.jpg') no-repeat center center; 
+    background-size: cover;
+}
+
+/* Landing page, welcome banner */
+#welc-banner {
+    font-size: 200%;
+    font-family: Lora, sans-serif;
+    width: 100%;
+    height: 200px;
+    letter-spacing: 4px;
+    padding-top: 40px;
+    background-color: rgba(233, 50, 5, 0.4);
+    bottom: 25%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+}
+
+/*#welc-banner, #welc-banner h2{ commented temporarily to check if welc-banner needed here on this code*/ 
+#welc-banner h2 {    
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    display: block;
+    /*width: fit-content;*/ /*this code makes my h2 not centered for some reason */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    position: relative;
+}
+
+#welc-banner h3 {
+    color: #fff;
+    font-family: Lora, sans-serif;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+/*What are you looking for text with horizontal rule */
+.prod-text {
+    font-family: Lora, san-serif;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+button {
+    width: 220px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Lora, sans-serif;
+    padding: 12px 10px;
+    background: rgba(146, 31, 2, 0.901);
+    /*background: rgba(60, 13, 2, 0.8);*/
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 25px;
+    margin-left:35px;
+    cursor: pointer;
+}
+
+/*style for what are you looking for text on the landing page*/
+#cakes-title{
+    margin-top: 25px;
+ }
+
+ /*style for the cake product types */
+#cake-menus {
+    height: 500px;
+    /*width: 80%;*/
+    width: 65%;
+    display: flex; 
+    margin: 70px 50px 80px 230px;
+   	justify-content: center;
+}
+
+.cakes-choice {
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 25px;
+    width:300px;
+    height:280px;
+    border-radius: 20px;
+    display: inline-block;   
+    /*border: 10px solid rgba(102, 22, 2, 0.746);    */
+    border: 10px solid rgba(172, 36, 2, 0.4);
+
+}
+ 
+.novelty-hdr {
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin-top: 0;
+ }
+
+ .novelty-hdr button {
+  /*  margin-top: 10px;*/
+ /*   margin-left: 38px;*/
+ }
+
+.wedding-hdr {
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+.classic-hdr {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* ends here, codes import from old css file 
+
+
+
 /* Style for GALLERY PHOTOS */
 /* gallery photos */
 .main-container { 
     display: flex;
     flex-direction: column;
+    /* flex-direction: row;  */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -129,21 +263,29 @@ h2 {
 }
 
 .main-container .contents-box {
-    display: flex;
+    display: flex; 
     flex-direction: row;
     justify-content: space-between;
 }
 
 .main-container .contents-box .gallery-photos {
     display: flex;
-    flex-direction: column;
-    width: 24.5%;
+    flex-direction: column; 
+    width: 30%;
+    padding: 2px 2px 2px 2px;
+    /* height: 40%; */
+    /* overflow-inline: 0; */
+    /* height: 25%; */
 }
 
+
 .main-container .contents-box .gallery-photos img {
+    overflow: hidden;
     width: 100%;
-    padding-bottom: 15px;
-    border-radius: 5px;
+    /* height: 300px; */
+    padding-bottom: 5px;
+    border-radius: 3px;
+    object-fit: cover;
 }
 
 .top-button {
@@ -164,6 +306,62 @@ h2 {
         display: block;
         border: 2px solid rgba(141, 31, 3, 9.246);
     }
+/* Gallery style ends here */
+
+
+/*<---About Us style starts here----->*/
+.about {
+    /* height: 750px; */
+    justify-content: center;
+    align-items: center;
+}
+
+#about-container {
+    width: 90%; 
+    padding-left: 5%; 
+    padding-right: 5%; 
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    /*padding: 2% 5% 2% 5%; */
+    /*background: transparent url('../images/cupcakemove.gif') center center;*/
+} 
+
+/*class for ABOUT US title text */
+.about-us-title {
+    text-align: center; 
+    font-family: Montserrat, sans-serif; 
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color:black;
+    display: block;
+}
+
+.about-us-items {
+        /*justify-content: center;*/
+    column-count: 2;
+    /* height: 500px; */
+    /* width: fit-content; */
+    column-gap: 1;
+ }
+
+ .about-us-videos{
+    width: 100%;
+ }
+
+.about-us-texts{
+    width: 100%;
+    height: 320px;
+    /*justify-content: center;*/
+    text-align:center;
+    font-family: Pridi, sans-serif;
+    /*font-family: Marcellus, sans-serif;*/
+    font-size: 18px;
+    letter-spacing: 0px;
+    background: rgba(146, 31, 2, 0.6501);
+    color: white;
+    /*background-color: rgba(233, 50, 5, 0.7);*/
+}
+/*<-----About Us Style ends here----> */
 
 /* footer */
 footer {
@@ -197,6 +395,122 @@ footer ul i:hover {
 }
 
 
+
+/*<----Sign up Form style starts here----> */
+/*Style for Sign-Up Form */
+.form-section {
+    clear: left;
+    background: url('../images/cakencandles.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+}
+
+.form-signup {
+    /*margin: 130px 10% 0 0;*/
+    margin: 100px 10% 0 0;
+    left: 10%;
+    color: #fff;
+    background-color: rgba(146, 31, 2, 0.6);
+    max-width: 400px;
+    position: absolute;
+    padding: 30px;
+    border: 5px solid rgba(141, 31, 3, .9);
+    border-radius: 10px;
+}
+
+.form-signup h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+}
+
+.text-label {
+    font-family: Lora, sans-serif;
+}
+
+.text-input {
+    background: transparent;
+    width: 100%;
+    color: #fafafa;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    font-family: Lora, sans-serif;
+} 
+
+.text-input:hover {
+    /*border-color: #f16c6b ;*/
+    border-color: lightcoral;
+}
+
+.button-submit {
+     font-family: Pridi, sans-serif;
+     margin-top: 20px;
+     border-radius: 2px;
+     padding: 10px 30px 10px 30px;
+     text-align: center;
+     /*font-size: 100%;*/
+     font-size: 1.2rem;
+     font-weight: bold;
+     letter-spacing: 2px;
+     background-color:  rgba(92, 21, 3, 0.65);
+     color:  #fafafa;
+     display: block;
+     border: 2px solid rgba(141, 31, 3, 9.246);;
+ }
+
+.button-submit:hover {
+    background-color: #fafafa;
+    /*color: #f16c6b;*/
+    color: lightcoral;
+}
+/*<----Sign up Form style ends here---->*/
+
+
+
+/*CSS GRID for CAKE PRODUCTS ITEMS*/
+.product-container{
+    max-width: 75rem;
+    margin-inline: auto; 
+    padding-inline: 1rem; 
+    border: 5px solid rgb(46, 46, 51);
+}
+
+.product-grid { 
+    display: grid;
+    gap: .125rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    /* repeat(4, 1fr) ; */
+    /* grid-auto-rows: 200px; */
+}
+
+.product-card {
+    border: 3px solid hotpink;
+}
+
+.product-card > img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    /* border: 5px solid green; */
+    object-fit:cover
+}
+
+.card-content{
+    background: white;
+    align-self: end;
+    box-shadow: 0 .25rem 1rem rgb( 0 0 0 / .1);
+    /* margin: .5rem .5rem 2rem; */
+    /* padding: .5rem;  */
+}
+/* End of Style for CAKE PRODUCS ITEMS USING GRID */
+
+
+
+
+
 /* media query for responsive - tablet size */
 @media screen and (max-width: 900px) {
     h1 {
@@ -224,31 +538,6 @@ footer ul i:hover {
         /* border: 5px solid red; */
     }
 } 
-
-/* Style for CAKE PRODUCTS ITEMS*/
-.contents-box {
-	background-color: white;
-	padding: 3em; 
-    border: 5px solid rgba(141, 31, 3, 9.246);
-}
-
-.contents-box .item {
-	background-color: white; 
-	border-radius: 10px; 
-	padding: 1em;
-	box-shadow: 0px 10px 5px rgba(141, 31, 3, 0.246);
-    border: 5px solid rgba(141, 31, 3, 9.246);
-	text-align: center;
-}
-
-.item .title {
-	font-size: 18px;
-	font-weight: bold;
-}
-
-
-/* End of Style for CAKE PRODUCS ITEMS */
-
 
 /*MEDIA QUERY FOR RESPONSIVE - 
 /* media query for responsive - mobile size */
@@ -307,10 +596,6 @@ footer ul i:hover {
     margin-top: 4%; 
 }
 
-
-.main-container .contents-box .item{
-    width: 33%;
-}
 
 .main-container .contents-box .gallery-photos img {
     padding-bottom: 5px;
