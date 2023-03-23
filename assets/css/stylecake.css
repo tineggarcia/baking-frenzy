@@ -215,23 +215,28 @@ footer ul i:hover {
 
 .product-grid { 
     display: grid;
-    /* gap: .125rem; */
-    grid-template-columns: repeat(4, 1fr);
+    gap: .125rem;
+    grid-template-columns: repeat(4, 1fr) 
     /* grid-auto-rows: 200px; */
 }
 
 .product-card {
-    border: 3px solid hotpink
+    aspect-ratio: 1 / 1.5;
+    border: 3px solid hotpink;
 }
 
 .product-card > img{
     width: 100%;
-    border: 5px solid green;
-    object-fit:fill
+    /* border: 5px solid green; */
+    object-fit:cover
 }
 
 .card-content{
-
+    background: white;
+    align-self: end;
+    box-shadow: 0 .25rem 1rem rgb( 0 0 0 / .1);
+    /* margin: .5rem .5rem 2rem; */
+    /* padding: .5rem;  */
 }
 /* End of Style for CAKE PRODUCS ITEMS USING GRID */
 
