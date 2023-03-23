@@ -472,7 +472,10 @@ footer ul i:hover {
 
 
 /*style for common header like Our Sweet Gallery, Our Products */
-/* .product-section > .sub-heading2 > .h3 { */
+.product-section{
+    margin-bottom: 3%;
+}
+
 .common-title  {
     font-family: Montserrat, sans-serif;
     font-size: 1.8rem;
@@ -575,56 +578,37 @@ footer ul i:hover {
         height: 50px; 
     }
 
-    #menu {
-        /* clear: both; */
-        font-size: .8rem;
-        line-height: 48px;
-        /* margin-bottom: 10px; */
-    }
-
-    /* #menu li {
-        float: left;
-        margin-left: 2%;
-        line-height: 20px;
-    } */
-
-    .main-container .sub-heading h3{
-        font-size: 1.8rem;
-        border-bottom: 3px solid black;
-        margin-top: 4%; 
-    }
-
 /* Media query for 510 down*/
 /*nav link HOME drops down 1 line*/
 
- #menu {
-    /* clear: both; */
-    font-size: .6rem;
-    line-height: 48px;
-    /* margin-bottom: 10px; */
+     #menu {
+        /* clear: both; */
+        font-size: .6rem;
+        line-height: 48px;
+        /* margin-bottom: 10px; */
+        }
+
+    .top-button{
+        margin-top: 1%;
+        font-size: 1rem;
+        height: 1%;
     }
 
-.top-button{
-    margin-top: 1%;
-    font-size: 1rem;
-    height: 1%;
-}
-
-.main-container .sub-heading h3{
-    font-size: 1.1rem;
-    border-bottom: 3px solid black;
-    margin-top: 4%; 
-}
+    .main-container .sub-heading h3{
+        font-size: 1.1rem;
+        border-bottom: 3px solid black;
+        margin-top: 4%;
+    }
 
 
-.main-container .contents-box .gallery-photos img {
-    padding-bottom: 5px;
-}
+    .main-container .contents-box .gallery-photos img {
+        padding-bottom: 5px;
+    }
 
-footer {
-        height: 2%;
+    footer {
+            height: 2%;
 
-}
+    }
 }
 
 
