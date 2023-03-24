@@ -159,6 +159,29 @@ h2 {
 }
 
 /*What are you looking for text with horizontal rule */
+.products-heading h3{
+    font-family: Montserrat, sans-serif;
+    font-size: 2.8em;
+    font-weight: bolder;
+    /* border-bottom: 3px solid #222; */
+    padding-bottom: 10px;
+    white-space: nowrap;
+
+    margin-top:3%; 
+    width:100%; 
+    height:47px; 
+    background-color: rgba(233, 50, 5, 0.2);
+
+</div>
+
+}
+
+.products-heading h3 span{
+    font-weight: bolder;
+    font-family: Lora, sans-serif;
+ /*   border-bottom: 3px solid #222;*/
+}
+
 .prod-text {
     font-family: Lora, san-serif;
     font-size: calc(20px + 1vw);
@@ -189,8 +212,13 @@ button {
 }
 
 /*style for what are you looking for text on the landing page*/
+#precakestitle{
+    height: 4rem;
+    /* border: 5px solid red; */
+}
+
 #cakes-title{
-    margin-top: 40px;
+    margin-top: 1rem;
  }
 
  /*style for the cake product types */
@@ -200,8 +228,9 @@ button {
     width: 65%;
     display: flex; 
     /* margin: 70px 50px 80px 230px; */
-    margin: 70px 50px 80px 200px;
+    margin: 10% 50px 80px 200px;
    	justify-content: center;
+    
 }
 
 .cakes-choice {
@@ -295,7 +324,6 @@ button {
     /* overflow-inline: 0; */
     /* height: 25%; */
 }
-
 
 .main-container .contents-box .gallery-photos img {
     overflow: hidden;
