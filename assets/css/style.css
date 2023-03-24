@@ -46,6 +46,9 @@ h2 {
     background-color: rgb(248, 201, 191);
     position: fixed;
     /* border: 5px solid coral; */
+    border-bottom-style: inset;
+    border-bottom: #431732;
+    border-bottom-width: 5px;
     z-index: 99999;
 }
 
@@ -115,7 +118,7 @@ h2 {
 #hero-image {
     height: 70vh;
     width: 100vw;
-    background: url('../images/cupcakes.jpg') no-repeat center center; 
+    background: url('../images/cupcakes.webp') no-repeat center center; 
     background-size: cover;
 }
 
@@ -158,8 +161,15 @@ h2 {
 /*What are you looking for text with horizontal rule */
 .prod-text {
     font-family: Lora, san-serif;
-    font-size: 25px;
-    letter-spacing: 4px;
+    font-size: calc(20px + 1vw);
+    letter-spacing: 2px;
+}
+
+#choose-text {
+    letter-spacing: 1px; 
+    margin-top: 5px; 
+    font-size: calc(2rem + 1vw); 
+    display: bold;
 }
 
 button {
@@ -180,7 +190,7 @@ button {
 
 /*style for what are you looking for text on the landing page*/
 #cakes-title{
-    margin-top: 25px;
+    margin-top: 40px;
  }
 
  /*style for the cake product types */
@@ -189,7 +199,8 @@ button {
     /*width: 80%;*/
     width: 65%;
     display: flex; 
-    margin: 70px 50px 80px 230px;
+    /* margin: 70px 50px 80px 230px; */
+    margin: 70px 50px 80px 200px;
    	justify-content: center;
 }
 
@@ -318,7 +329,9 @@ button {
 
 /*<---About Us style starts here----->*/
 /*class for ABOUT US title text */
-
+#pre-about{
+    height: 90px;   
+}
 
 .about-us-title {
     text-align: center; 
@@ -328,36 +341,30 @@ button {
     color:black;
     display: block;
 }
+
 .about { /*section* /
     /* height: 750px; */
 }
 
 #about-container { /*container div*/
-  
     max-width: 75rem;
     margin-inline: auto; 
     padding-inline: 1rem; 
-    
-
     /* margin: auto; */
     /* width: 80%;  */
     border-radius: 10px;
     padding: 2% 5% 2% 5%; 
     background: rgba(146, 31, 2, 0.6501);
-       /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
-        /* border: 5px solid coral; */
+    /* border: 5px solid coral; */
 } 
 
 /*Grid style for About us NEW*/
 .about-grid { 
     display: grid;
     gap: .125rem;
-    column-gap: 1rem; 
+    column-gap: 2rem; 
     /* grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); */
     grid-template-columns: repeat(2, 1fr); 
-
 }
 
 .about-card {
@@ -441,7 +448,8 @@ footer ul i:hover {
 /*Style for Sign-Up Form */
 .form-section {
     clear: left;
-    background: url('../images/cakencandles.jpg');
+    /* background: url('../images/cakencandles.jpg'); */
+    background: url('../images/cakencandles.webp');
     background-size: cover;
     background-position: center;
     height: 850px;
@@ -511,7 +519,6 @@ footer ul i:hover {
 /*<----Sign up Form style ends here---->*/
 
 
-
 /*style for common header like Our Sweet Gallery, Our Products */
 .product-section{
     margin-bottom: 3%;
@@ -525,7 +532,6 @@ footer ul i:hover {
     margin-top: 4%; 
     padding-bottom: 1%;
 }
-
 
 .common-title h3 span{
     font-weight: bolder;
@@ -558,8 +564,8 @@ footer ul i:hover {
     width: 100%;
     aspect-ratio: 1 / 1;
     border: 2px solid rgba(141, 31, 3, .9);
-    object-fit:cover;
-    /* object-fit:fill; */
+    /* object-fit:cover; */
+    object-fit:fill;
     border-radius: 15px;
 }
 
@@ -574,13 +580,6 @@ footer ul i:hover {
     padding: 1rem;
 }
 /* End of Style for CAKE PRODUCS ITEMS USING GRID */
-
-
-
-
-
-
-
 
 
 
@@ -656,9 +655,6 @@ footer ul i:hover {
     }
 
     .about-grid { 
-        /* display: grid;
-        gap: .125rem;
-        column-gap: 1rem;  */
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     }
     
@@ -666,7 +662,6 @@ footer ul i:hover {
             height: 2%;
     }
 }
-
 
 
 
