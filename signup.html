@@ -39,10 +39,15 @@
     </header>
 
 <div id="main-content">
-
+    <script>
+        function thankyou() {
+            document.getElementById('thankyou').style.display='block';
+            return false;
+        }
+    </script>
     <main id="form-main">
         <section class="form-section">
-            <form class="form-signup" method="POST" action="#">
+            <form class="form-signup" method="POST" onsubmit="return thankyou();">
                 <h2> Sign up to join our mailing list! </h2>
                     <label class="text-label" for="fname">First Name</label><br>
                     <input class="text-input" id="fname" name="first_name" type="text" required><br>
@@ -52,11 +57,14 @@
                     <label class="text-label" for="email">Email Address</label><br>
                     <input class="text-input" id="email" name="email_address" type="email" required><br>
 
-                    <input class="chkbox-input" name="yes_update" type ="checkbox" required>
-                    <label class="text-label" for="yes-update" id="yes-update">
+                    <input id="yes-update" class="chkbox-input" name="yes_update" type ="checkbox" required>
+                    <label class="text-label" for="yes-update">
                     Yes, I'm happy to receive marketing communications from you and agree to your 
                     privacy policy.</label><br>
-                    <input class="button-submit" id="submit-button" type="submit" value="SUBMIT!" onclick="alert('Thank your for signing up!!!');"/>
+                    <input class="button-submit" id="submit-button" type="submit" value="SUBMIT">
+                    <div id="thankyou" style="display: none;">
+                        <p>Thank you for signing up!!!</p>
+                    </div>
             </form>
         </section>
     </main>
