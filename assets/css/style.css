@@ -202,18 +202,19 @@ h2 {
 }
 
 button {
+    vertical-align: middle;
     width: 220px;
     color: whitesmoke;
     font-size: 16px;
     font-family: Lora, sans-serif;
-    padding: 12px 10px;
+    padding: 12px;
     background: rgb(142, 30, 2);
     /*background: rgba(60, 13, 2, 0.8);*/
     border: 0;
     border-radius: 20px;
     outline: none;
-    margin-top: 25px;
-    margin-left:35px;
+    /* margin-top: 25px; */
+    /* margin-left:35px; */
     cursor: pointer;
 }
 
@@ -223,10 +224,15 @@ button {
     /* border: 5px solid red; */
 }
 
+.div-center{
+    text-align: center;
+    align-items: center;
+    /* border: 10px solid blue; */
+    /* width: 100%; */
+}
 
 /******Style for PRODUCT TYPES******/
 /* Style for Cake(Prodcuts) Type starts here*/
-
 .producttype-container{
     /*max-width: 65%;*/
     width: 65%;
@@ -482,6 +488,59 @@ button {
 /*<-----About Us Style ends here----> */
 
 
+/***********Style for TESTIMONIALS***********/
+#testimonials{ /*section for testimonials*/
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.testimonials-container{
+    max-width: 60rem;
+    margin-inline: auto;  
+    padding-inline: 1rem; 
+    padding-bottom: 1%;
+    /* border: 5px solid rgb(46, 46, 51);  */
+}
+
+.testimonials-grid { 
+    margin-top: 2%;
+    display: grid;
+    gap: .125rem;
+    column-gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    /* repeat(4, 1fr) ; */
+    /* grid-auto-rows: 200px; */
+}
+
+.testimonials-card > img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit:fill;
+}
+
+.testimonials-card {
+    box-shadow: 2rem 1rem 1rem rgb( 0 0 0 / .1);
+    padding: 5%;
+}
+
+.test-card-title{
+    font-family: Lora, sans-serif;
+}
+.test-card-desc {
+}
+
+.test-card-content{
+    background: white;
+    font-family: Montserrat, sans-serif;
+    align-self: end;
+    box-shadow: 1rem 1rem 1rem rgb( 0 0 0 / .1);
+    letter-spacing: 1px;
+    text-align: center;
+    font-style: italic;
+    padding: 1rem;
+}
+/******End for Testimonials*****/
+
 
 
 /* footer */
@@ -640,6 +699,7 @@ footer ul i:hover {
     /* object-fit:cover; */
     object-fit:fill;
     border-radius: 15px;
+
 }
 
 .card-content{
