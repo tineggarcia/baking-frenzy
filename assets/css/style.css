@@ -69,8 +69,6 @@ h2 {
 /*Baking Frenzy main logo*/
 #logo-image {
     float: left;
-    /*font-family: Montserrat, san-serif;*/
-    /*text-align: center;*/
     margin: .5% 1% 1% 1%;
     width:auto;
     height: 80px; 
@@ -226,7 +224,9 @@ button {
 }
 
 
-/*CSS GRID for PRODUCT TYPE*/
+/******Style for PRODUCT TYPES******/
+/* Style for Cake(Prodcuts) Type starts here*/
+
 .producttype-container{
     /*max-width: 65%;*/
     width: 65%;
@@ -316,8 +316,9 @@ button {
 /* ends here, codes import from old css file 
 
 
+/******Style for GALLERY PHOTOS*******/
+/* Style for GALLERY PHOTOS starts here*/
 
-/* Style for GALLERY PHOTOS */
 /* gallery photos */
 .main-container { 
     display: flex;
@@ -397,7 +398,9 @@ button {
 /* Gallery style ends here */
 
 
-/*<---About Us style starts here----->*/
+/********Style for ABOUT US*********/
+/*<---About Us style starts here--->*/
+
 /*class for ABOUT US title text */
 #pre-about{
     height: 90px;   
