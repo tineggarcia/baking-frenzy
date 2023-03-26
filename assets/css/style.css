@@ -602,7 +602,6 @@ footer ul i:hover {
 .common-title h3 span{
     font-weight: bolder;
     font-family: Lora, sans-serif;
-    /* border-bottom: 3px solid #222;  */
 }
 
 /*CSS GRID for CAKE PRODUCTS ITEMS*/
@@ -656,7 +655,7 @@ footer ul i:hover {
 
 
 
-/*<-----------MEDIA QUERY STYLES STARTS HERE------------>*/
+/***MEDIA QUERY STYLES STARTS HERE***/
 /* Media query for responsive - tablet size */
 @media screen and (max-width: 900px) {
     h1 {
@@ -722,10 +721,9 @@ footer ul i:hover {
 /*nav link HOME drops down 1 line*/
 @media screen and (max-width: 510px) {
      #menu {
-        /* clear: both; */
         font-size: .6rem;
         line-height: 48px; 
-        
+        border: 5px solid red;
     }
 
     .top-button{
@@ -769,6 +767,59 @@ footer ul i:hover {
 
     }
 }
+
+
+/* Media query for 580px - probably smallest device*/
+@media screen and (max-width: 581px) and (min-width:520px) {
+    #top-banner {
+        height: 60px;    
+        border: 5px solid blue;
+    }
+    #logo-name{
+        margin-top: 3%;
+    }
+    #menu li{   
+        font-size: .8rem;
+        line-height: 48px;
+    }
+
+    .common-title {
+        font-size: 1.1rem;
+        margin-top: 3%;
+        padding-bottom: 1%;
+    }
+
+    .common-title h3 span {
+        font-size: 1.3rem;
+    }
+}
+
+/*from 520 to 320px*/
+@media screen and (max-width: 520px) and (min-width:320px) {
+    .common-title {
+        font-size: 1.1rem;
+        margin-top: 3%;
+        padding-bottom: 1%;
+        border: 5px solid green;
+    }
+    .common-title h3 span {
+        font-size: 1.3rem;
+ 
+    }
+
+}
+
+@media screen and (max-width: 512px) {
+    .main-container .sub-heading h3 {
+        font-size: 2rem;
+    }
+
+    .main-container .sub-heading span {
+        font-size: 2rem;
+    }
+}
+
+
 
 /* Media query for 320px - probably smallest device*/
 @media screen and (max-width: 319px) {
