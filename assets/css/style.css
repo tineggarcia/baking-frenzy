@@ -270,7 +270,7 @@ button {
 
 .precaketype{
     height:30%;
-    border: 5px, solid black;
+    border: 5px solid black;
 }
 
 /******Style for GALLERY PHOTOS*******/
@@ -590,7 +590,7 @@ footer ul i:hover {
      background-color:  rgba(92, 21, 3, 0.65);
      color:  #fafafa;
      display: block;
-     border: 2px solid rgba(141, 31, 3, 9.246);;
+     border: 2px solid rgba(141, 31, 3, 9);
  }
 
 .button-submit:hover {
@@ -686,7 +686,7 @@ footer ul i:hover {
         font-size: 1.5rem;
     }
     #top-banner {
-        height: 80px;    
+        height: 80px;
     }
 
     #logo-name {
@@ -747,7 +747,7 @@ footer ul i:hover {
     }
 
     #top-banner {
-        height: 65px;    
+        height: 65px;
     }
 
     .main-container .sub-heading h3{
