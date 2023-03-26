@@ -727,7 +727,6 @@ footer ul i:hover {
      #menu {
         font-size: .6rem;
         line-height: 48px; 
-        border: 5px solid red;
     }
 
     .top-button{
@@ -780,7 +779,6 @@ footer ul i:hover {
 @media screen and (max-width: 581px) and (min-width:520px) {
     #top-banner {
         height: 60px;    
-        border: 5px solid blue;
     }
     #main-content {
         top:61px;
