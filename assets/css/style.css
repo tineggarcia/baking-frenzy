@@ -690,13 +690,24 @@ footer ul i:hover {
 }
     
 /* Media query for responsive - Mobile size */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 751px) {
     h1 {
         font-size: 1rem;
     }
     #top-banner {
         height: 55px;    
     }
+        /* font-size: .6rem;
+        line-height: 48px;  */
+    
+    #menu li {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding-top: 0;
+        margin-top:0;
+        line-height:3.2rem;
+    }
+    
     #logo-name {
         margin-top: 2%;
     }
@@ -713,7 +724,8 @@ footer ul i:hover {
      #menu {
         /* clear: both; */
         font-size: .6rem;
-        line-height: 48px;
+        line-height: 48px; 
+        
     }
 
     .top-button{
@@ -727,11 +739,11 @@ footer ul i:hover {
     }
 
     .common-title h2  {
-        margin-top: 10%;
-        font-size: 1.4rem;
+        margin-top: 7%;
+        font-size: 1.5rem;
     }
     .common-title h3 {
-        font-size: 1.3rem;;
+        font-size: 1.4rem;;
 
     }
 
