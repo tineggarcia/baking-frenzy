@@ -17,7 +17,7 @@ Explore the world of cakes at <a href="https://tineggarcia.github.io/baking-fren
 
 **[Live site](https://tineggarcia.github.io/baking-frenzy/index.html)**
 ------------------------------------------------------------------
-**[Repository](https://github.com/Alan-Bushell/belfast-auto-repairs)**
+**[Repository](https://github.com/tineggarcia/bakingfrenzy)**
 ------------------------------------------------------------------
 
 ## Contents
@@ -32,24 +32,14 @@ Explore the world of cakes at <a href="https://tineggarcia.github.io/baking-fren
 * [**Features**](<#features>)
     * [**Home**](<#navigation-menu>)
         * [Navigation menu](<#navigation-menu>)
-        * [Gallery](<#gallery>)
+        * [Welcome - Hero Section](<#welcome-hero-section>)
+        * [Cake Products](<#cake-products>)
         * [About-us](<#about-us>)
         * [Testimonials](<#testimonials>)
         * [Footer](<#footer>)
-    * [**Projects**](<#projects>)
-        * Dolls Cots
-        * Height Chart
-        * Walker
-    * [**Inspiration**](<#inspiration>)
-        * Elm
-        * Oak
-        * Elm
-    * [**Contact Us**](<#contact-us>)
-        * Contact details
-        * Location map
-        * Design Query form
-    * [**Form Confirmation**](<#form-confirmation>)
-    * [**Future Features**](<#future-features>)
+        * [Gallery](<#gallery>)
+        * [Sign up](<#sign-up-form>)
+* [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Deployment**](<#deployment>)
@@ -96,7 +86,7 @@ during the development as some issues/complications was considered along the way
 
 [Back to top](<#contents>)
 
-## Site Main Structure
+## Site Structure
 
 Baking Frenzy Cakes website has Four(4) main pages such as Home, Products, Gallery and Sign up. 
 The website initially loads the home page or landing page (index.html) which display a 
@@ -162,7 +152,7 @@ Navigation bar was made using Flex for ease of manipulation.
 
 [Back to top](<#contents>)
 
-* ### Welcome - Hero Section
+* ### Welcome Hero Section
     * This hero section displays a decent sized image of scrumptious cupcakes that 
 I find it really enticing for the users. A small reddish overlay was placed on top 
 of the hero image, to create a bit of opacity to some parts of the image, plus 
@@ -195,18 +185,6 @@ to what has been claimed to prove that such distinction did happen really.
 ![About-Us image](readme-images/aboutus.png)
 [Back to top](<#contents>)
 
-* ### Testimonials
-    * 
-    * The testimonials display the feedback previous customers have given Baking Frenzy Cakes.
-    * Each testimonial shows the photo of the cake the customers have ordered plus their feedback.
-    * I have included three(3) testimonials at the moment, which I believe are fair enough.
-    * I have used a grid here to create these testimonials for easy layout and easy responsiveness.
-    * I designed each testimonial in a box, with shadow look border to give a classy feel and provides
-emphasis on it.
-    * Lora cursive font was used to represent texts as statements/phrases that were mentioned by a person. 
-
-![Testimonials](readme-images/testimonials.png)
-[Back to top](<#contents>)
 
 * ### Footer
 
@@ -217,7 +195,6 @@ each icon diverts the webpage that corresponds to the selected.
 
 ![Footer image](readme-images/footer.png)
 [Back to top](<#contents>)
-
 
 * ### Cake Products
   * This Cake Products page will open upon click/selection on the Cake Products section 
@@ -239,6 +216,20 @@ possibilities.
   * To better help the user to identify the items, title and description was displayed. 
 ![Cake Products Display](readme-images/noveltycakes.png)
 [Back to top](<#contents>)
+
+* ### Testimonials
+    *
+    * The testimonials display the feedback previous customers have given Baking Frenzy Cakes.
+    * Each testimonial shows the photo of the cake the customers have ordered plus their feedback.
+    * I have included three(3) testimonials at the moment, which I believe are fair enough.
+    * I have used a grid here to create these testimonials for easy layout and easy responsiveness.
+    * I designed each testimonial in a box, with shadow look border to give a classy feel and provides
+      emphasis on it.
+    * Lora cursive font was used to represent texts as statements/phrases that were mentioned by a person.
+
+![Testimonials](readme-images/testimonials.png)
+[Back to top](<#contents>)
+
 
 * ### Gallery
   * This page displays a collection of Baking Frenzy Cake's best works. 
@@ -297,103 +288,44 @@ feedback across various devices.
 
 * CSS Testing results, NO ERRORS FOUND and cleared.
 ![CSS Validation](readme-images/jigsaw.png)
+[Back to top](<#contents>)
 
 
 # Lighthouse Testing
 ![Lighthouse Gallery Page](readme-images/lighthouse.png)
-![Lighthouse Gallery Page](readme-images/lighthouse-cakeproducts.png)
-![Lighthouse Gallery Page](readme-images/lighthouse-gallery.png)
-![Lighthouse Gallery Page](readme-images/lighthouse-signupdesktop.png)
-![Lighthouse Gallery Page](readme-images/lighthouse-signupmobile.png)
-![Lighthouse Gallery Page](readme-images/lighthouse-cakeproducts.png)
+![Lighthouse Cake products Page](readme-images/lighthouse-cakeproducts.png)
+![Lighthouse Home Page](readme-images/lighthouse-gallery.png)
+![Lighthouse Signup Form Page](readme-images/lighthouse-signupdesktop.png)
+![Lighthouse Sign up Form Mobile](readme-images/lighthouse-signupmobile.png)
+![Lighthouse Cake Products Page](readme-images/lighthouse-cakeproducts.png)
 
-light
-
-[Back to top](<#contents>)
-
-My bugs
-1. Some typo like background:
-   bakcground for the hero-image hence image wont show
-2. Spent some time figuring out why my images are not fully shown and only
-   Part of the image was shown. Spoke to tutor and was told to use the responsive units vh and vw
-   Since the image is too large. Fixed the problem.
-
-3. Spent like forever trying to place an image to a div container, but the image won’t resize properly.
-   Tried to resize the image to avoid too much adjustment, still, can’t figure out the correct sizing and
-   Settings. Ended up using <img> instead of background. In div.
-
-4. Had a problem I was trying to solve for ages, resizing my image, 1 our of 3 images fit perfectly in the div container, but the other 2 was just way off the container. Eventually found the cause, used # instead of . For class
-
-5. the footer won’t center, checked the class of the UL several times but couldn’t see a problem. Eventually problem saw the footer class height is set to 150px but used width instead. So won’t center
-
-
-
-
-
-
-Resources
-
-pexels
-unsplash
-Icons8 for animated icons
-Font awesome
-
-
-YouTube for some
-Geek for geeks.- designed horizontal lines
-
-Youtube web cigar
-
-
-
-
-# Deployment
-
-### **To deploy the project**
-The site was deployed to GitHub pages. The steps to deploy a site are as follows:
-1. In the GitHub repository, navigate to the **Settings** tab.
-2. Once in Settings, navigate to the **Pages** tab on the left hand side.
-3. Under **Source**, select the branch to **master**, then click **save**.
-4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-![GitHub pages deployed image](assets/readme-images/deploy.png)
-
-The live link to the Github repository can be found here - https://github.com/EwanColquhoun/wawaswoods
 [Back to top](<#contents>)
 
 # Credits
 ### Content
 
 * The font came from [Google Fonts](https://fonts.google.com/).
-* The map is embedded from [Google Maps](https://www.google.com/maps).
-* The colour palate was compiled by [Colormind](http://colormind.io/).
-* The embedded cupcake icon used from Giphy.com. 
-* 
-* The icons came from [Font Awesome](https://fontawesome.com/).
-* The form validation idea came from a [YouTube tutorial](https://www.youtube.com/watch?v=fNcJuPIZ2WE).
-* The code for the Safari specific styling was inspired by an example on [Stack Overflow](https://stackoverflow.com/).
-* The inspiration for the Project page sliders came from this repository on [GitHub](https://gist.github.com/zhilinskiy/4603199).
-* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
-
-
-### Media
-* The photos all came from the developer, [Ewan Colquhoun](https://www.linkedin.com/in/ewan-colquhoun-2b3535213/).
-* The photos were compressed using [Compressor](https://compressor.io/).
-
-[Back to top](<#contents>)
-
-# Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Wawas Woods is a fictional company but it exists in everything but the business title. Currently it is more of a hobby!
-
-Ewan Colquhoun 2021.
-
-[Back to top](<#contents>)
-
+* For the pairing of the fonts I used [Fontjoy](https://fontjoy.com) .
+* I compressed the images using [Tiny Img](https://tiny-img.com/webp).
+* Most of the photos belongs to myself but I took a few from [Pexels](https://www.pexels.com/) 
+  and [Unsplash](https://unsplash.com).
+* The video used on the homepage is from [Pexels](https://www.pexels.com/).
+* The embedded cupcake icon used from [Giphy.com](https://giphy.com/)
+* The icons used came from [Font Awesome](https://fontawesome.com/)
+* The Flex and CSS Grid was learned Geek for Geeks Youtube channel [YouTube tutorial](https://www.youtube.com/).
+* I took some code examples from [Stack Overflow](https://stackoverflow.com/), [CSS-Tricks](https://css-tricks,com/)
+* I also checked out [W3 Schools](http://w3schpols.com) to learn more about HTML and CSS.
+* I used the [Balsamiq](https://balsamiq.com/wireframes/) for my wireframes.
+* I used the [W3C Validator](https://validator.w3.org/) and [Jigsaw Validator](https://jigsaw.w3.org/css-validator) for my HTML and CSS code testings. 
+* I used the Google Lighthouse for the Performance testing of my website.
+* I also used [Brackets](https://brackets.io/) source code editor when I ran out of Gitpod hours and it
+  was a weekend hence, no tutor care available.
 
 <a name="deployment"></a>
 ## Deployment
 
-> To deploy the project I followed these steps starting from the main project repository [here](https://github.com/Alan-Bushell/belfast-auto-repairs).
+> To deploy the project I followed these steps starting from the main project repository 
+>[here](https://github.com/tineggarcia/bakingfrenzy).
 
 1. Clicked on `Settings` on the navigation menu in the repository
 2. I then selected the `Pages` menu on the side bar.
@@ -403,52 +335,18 @@ Ewan Colquhoun 2021.
 
 > I then received a notification from GitHub that my project is being deployed and after about 1 minute & a couple of refreshes of the page it was ready and live.
 
-<a name="credits"></a>
-## Credits
-
-# Deployment
-
-### **To deploy the project**
-The site was deployed to GitHub pages. The steps to deploy a site are as follows:
-1. In the GitHub repository, navigate to the **Settings** tab.
-2. Once in Settings, navigate to the **Pages** tab on the left hand side.
-3. Under **Source**, select the branch to **master**, then click **save**.
-4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-![GitHub pages deployed image](assets/readme-images/deploy.png)
-
-The live link to the Github repository can be found here - https://github.com/EwanColquhoun/wawaswoods
-
-
-# Credits
-### Content
-
-* The font came from [Google Fonts](https://fonts.google.com/).
-* The map is embedded from [Google Maps](https://www.google.com/maps).
-* The colour palate was compiled by [Colormind](http://colormind.io/).
-* The icons came from [Font Awesome](https://fontawesome.com/).
-* The form validation idea came from a [YouTube tutorial](https://www.youtube.com/watch?v=fNcJuPIZ2WE).
-* The code for the Safari specific styling was inspired by an example on [Stack Overflow](https://stackoverflow.com/).
-* The inspiration for the Project page sliders came from this repository on [GitHub](https://gist.github.com/zhilinskiy/4603199).
-* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
-
-
-### Media
-* The photos all came from the developer, [Ewan Colquhoun](https://www.linkedin.com/in/ewan-colquhoun-2b3535213/).
-* The photos were compressed using [Compressor](https://compressor.io/).
-
-[Back to top](<#contents>)
-
 # Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Wawas Woods is a fictional company but it exists in everything but the business title. Currently it is more of a hobby!
+The site was completed as a Portfolio 1 Project piece for the Full 
+Stack Software Developer (e-Commerce) Diploma at the 
+[Code Institute](https://codeinstitute.net/). As such I would 
+like to thank my mentor 
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/),
+the Slack community, our Cohort Facilitator Alan Bushell, my classmates, 
+Code Institute Tutors and all at the Code Institute for their help  and 
+support. Last but not the least, to my better half Neil for being so 100%
+on board with me, rain or shine, always have supported and helped in any 
+way he can. I couldn't have dont this without him. 
 
-Ewan Colquhoun 2021.
-
+Christine Garcia 2022
 [Back to top](<#contents>)
-
-
-
-## **[Live site](https://alan-bushell.github.io/belfast-auto-repairs/index.html)**
-
-
 
