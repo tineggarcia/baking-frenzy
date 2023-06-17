@@ -45,11 +45,10 @@ Explore the world of cakes at <a href="https://tineggarcia.github.io/baking-fren
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
-    * [**Media**](<#media>)
 *  [**Acknowledgements**](<#acknowledgements>)
 
 
-# User Experience (UX)
+# User Experience UX
 
 ## User Stories
 
@@ -183,6 +182,7 @@ to what has been claimed to prove that such distinction did happen really.
     * Lastly I added an image of the map location to give the users an idea of the location.
 
 ![About-Us image](readme-images/aboutus.png)
+
 [Back to top](<#contents>)
 
 
@@ -194,6 +194,7 @@ scheme and design of the website.
 each icon diverts the webpage that corresponds to the selected. 
 
 ![Footer image](readme-images/footer.png)
+
 [Back to top](<#contents>)
 
 * ### Cake Products
@@ -215,6 +216,7 @@ font for uniformity and a neat look.
 possibilities.
   * To better help the user to identify the items, title and description was displayed. 
 ![Cake Products Display](readme-images/noveltycakes.png)
+  * 
 [Back to top](<#contents>)
 
 * ### Testimonials
@@ -228,6 +230,7 @@ possibilities.
     * Lora cursive font was used to represent texts as statements/phrases that were mentioned by a person.
 
 ![Testimonials](readme-images/testimonials.png)
+
 [Back to top](<#contents>)
 
 
@@ -239,6 +242,7 @@ just images, unlike the other page wherein title and description of each was pro
   * This gallery was created using grid for better responsiveness.
 
 ![Gallery image](readme-images/gallery.png)
+
 [Back to top](<#contents>)
 
 * ### Sign up Form
@@ -254,6 +258,7 @@ privacy policies.
 the Submit button, an acknowledgement message is displayed at the bottom (see image below).
 
 ![Submit button message](readme-images/submit-msg.png)
+
 [Back to top](<#contents>)
 
 ## Future Features
@@ -288,16 +293,23 @@ feedback across various devices.
 
 * CSS Testing results, NO ERRORS FOUND and cleared.
 ![CSS Validation](readme-images/jigsaw.png)
+
 [Back to top](<#contents>)
 
 
 # Lighthouse Testing
-![Lighthouse Gallery Page](readme-images/lighthouse.png)
-![Lighthouse Cake products Page](readme-images/lighthouse-cakeproducts.png)
+
+* I am happy with the over-all performance based on the tests results. 
+* I had a poor performance on the first few test attempts mostly because of the images so I have 
+  to compress it and it made a big difference.
+* See results on the images below, most of them 100% performance. 
+
 ![Lighthouse Home Page](readme-images/lighthouse-gallery.png)
+![Lighthouse Cake Products Page](readme-images/lighthouse-cakeproducts.png)
+![Lighthouse Cake products Page](readme-images/lighthouse-cakeproducts.png)
+![Lighthouse Gallery Page](readme-images/lighthouse.png)
 ![Lighthouse Signup Form Page](readme-images/lighthouse-signupdesktop.png)
 ![Lighthouse Sign up Form Mobile](readme-images/lighthouse-signupmobile.png)
-![Lighthouse Cake Products Page](readme-images/lighthouse-cakeproducts.png)
 
 [Back to top](<#contents>)
 
@@ -321,7 +333,8 @@ feedback across various devices.
 * I also used [Brackets](https://brackets.io/) source code editor when I ran out of Gitpod hours and it
   was a weekend hence, no tutor care available.
 
-<a name="deployment"></a>
+[Back to top](<#contents>)
+
 ## Deployment
 
 > To deploy the project I followed these steps starting from the main project repository 
@@ -335,18 +348,21 @@ feedback across various devices.
 
 > I then received a notification from GitHub that my project is being deployed and after about 1 minute & a couple of refreshes of the page it was ready and live.
 
+[Back to top](<#contents>)
+
+
+
 # Acknowledgements
 The site was completed as a Portfolio 1 Project piece for the Full 
 Stack Software Developer (e-Commerce) Diploma at the 
-[Code Institute](https://codeinstitute.net/). As such I would 
-like to thank my mentor 
-[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/),
+[Code Institute](https://codeinstitute.net/). As such I would like to thank 
+my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/),
 the Slack community, our Cohort Facilitator Alan Bushell, my classmates, 
 Code Institute Tutors and all at the Code Institute for their help  and 
 support. Last but not the least, to my better half Neil for being so 100%
 on board with me, rain or shine, always have supported and helped in any 
-way he can. I couldn't have dont this without him. 
+way he can. I couldn't have done this without him. 
 
 Christine Garcia 2022
-[Back to top](<#contents>)
 
+[Back to top](<#contents>)
