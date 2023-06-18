@@ -1,7 +1,7 @@
+/* Imports - Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Lora:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&family=Lora:ital,wght@1,500&display=swap');
-
 
 /* General style rule/settings */
 * {
@@ -26,7 +26,7 @@ h2 {
     color: #252525;
 }
 
-/*Top portion(rectangle block) section background of the logo */
+/* Top portion(rectangle block) section background of the logo */
 #top-banner {
     width: 100%;
     height: 90px;
@@ -133,7 +133,6 @@ h2 {
     align-items: center;
 }
 
-/*#welc-banner, #welc-banner h2{ commented temporarily to check if welc-banner needed here on this code*/
 #welc-banner h2 {
     color: #fff;
     font-family: Montserrat, sans-serif;
@@ -150,7 +149,6 @@ h2 {
     color: #fff;
     font-family: Lora, sans-serif;
     text-transform: capitalize;
-    /* font-size: 2rem; */
 }
 
 /*What are you looking for text with horizontal rule */
@@ -200,16 +198,13 @@ h2 {
 }
 
 /*style for what are you looking for text on the landing page*/
-#precakestitle{ /*section for What are you looking for text on the landing page*/
-}
-
 .div-center{
     text-align: center;
     align-items: center;
 }
 
 /******Style for PRODUCT TYPES******/
-/* Style for Cake(Prodcuts) Type starts here*/
+/* Style for Cake(Products) Type starts here*/
 .producttype-container {
     width: 65%;
     margin-inline: auto;
@@ -238,7 +233,7 @@ h2 {
     margin-top: 1rem;
  }
 
- /*style for the cake product types */
+/*Style for the cake product types */
 #cake-menus {
     height: 450px;
     width: 65%;
@@ -256,7 +251,6 @@ h2 {
     border-radius: 20px;
     display: inline-block;   
     border: 10px solid rgba(172, 36, 2, 0.4);
-
 }
 
 .precaketype{
@@ -267,18 +261,16 @@ h2 {
 /******Style for GALLERY PHOTOS*******/
 /* Style for GALLERY PHOTOS starts here*/
 
-/* gallery photos */
+/* Gallery photos */
 .main-container { 
     display: flex;
     flex-direction: column;
-    /* flex-direction: row;  */
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 40px 20px 0 60px; 
     font-family: Montserrat, sans-serif;
     width: 90%;
-    /* border: 5px solid red; */
 }
 
 .main-container .sub-heading{
@@ -338,7 +330,7 @@ h2 {
 
 
 /*<---About Us style starts here--->*/
-/*class for ABOUT US title text */
+/*Class for ABOUT US title text */
 #pre-about{
     height: 90px;   
 }
@@ -352,36 +344,26 @@ h2 {
     display: block;
 }
 
-.about { /*section* /
-    /* height: 750px; */
-}
-
-#about-container { /*container div*/
+/*Container div*/
+#about-container {
     max-width: 75rem;
     margin-inline: auto; 
-    padding-inline: 1rem; 
-    /* margin: auto; */
-    /* width: 80%;  */
+    padding-inline: 1rem;
     border-radius: 10px;
     padding: 2% 5% 2% 5%; 
     background: rgba(146, 31, 2, 0.6501);
-    /* border: 5px solid coral; */
 } 
 
 /*Grid style for About us NEW*/
 .about-grid { 
     display: grid;
     gap: .125rem;
-    column-gap: 2rem; 
-    /* grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); */
+    column-gap: 2rem;
     grid-template-columns: repeat(2, 1fr); 
 }
 
 .about-card {
     width: 100%;
-    /* border: 2px solid rgba(3, 141, 125, 0.9); */
-    /* object-fit:cover center center;  */
-     /* object-fit:fill;  */
     border-radius: 10px;
 }
 
@@ -391,8 +373,6 @@ h2 {
     height: 20rem;
     aspect-ratio: 1 / 1;
     border: 2px solid rgba(141, 31, 3, .9);
-    /* object-fit: cover center center; */
-    /* object-fit:fill; */
     border-radius: 10px;
 }
 
@@ -413,14 +393,13 @@ h2 {
     color: white;
     font-size: 1.2em;
     letter-spacing: 0px;
-    /* background: rgba(146, 31, 2, 0.6501); */   
-    /*background-color: rgba(233, 50, 5, 0.7);*/
 }
 /*<-----About Us Style ends here----> */
 
 
 /***********Style for TESTIMONIALS***********/
-#testimonials{ /*section for testimonials*/
+/*section for testimonials*/
+#testimonials{
     margin-top: 3%;
     margin-bottom: 4%;
 }
@@ -430,7 +409,6 @@ h2 {
     margin-inline: auto;  
     padding-inline: 1rem; 
     padding-bottom: 1%;
-    /* border: 5px solid rgb(46, 46, 51);  */
 }
 
 .testimonials-grid { 
@@ -439,9 +417,6 @@ h2 {
     gap: .125rem;
     column-gap: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    /* repeat(4, 1fr) ; */
-    /* grid-auto-rows: 200px; */
-    /* border: 5px solid rgb(46, 46, 51);  */
 }
 
 .testimonials-card > img{
@@ -510,7 +485,6 @@ footer ul i:hover {
 /*Style for Sign-Up Form */
 .form-section {
     clear: left;
-    /* background: url('../images/cakencandles.jpg'); */
     background: url('../images/cakencandles.webp');
     background-size: cover;
     background-position: center;
@@ -518,7 +492,6 @@ footer ul i:hover {
 }
 
 .form-signup {
-    /*margin: 130px 10% 0 0;*/
     margin: 100px 10% 0 0;
     left: 10%;
     color: #fff;
@@ -553,7 +526,6 @@ footer ul i:hover {
 } 
 
 .text-input:hover {
-    /*border-color: #f16c6b ;*/
     border-color: lightcoral;
 }
 
@@ -563,7 +535,6 @@ footer ul i:hover {
      border-radius: 2px;
      padding: 10px 30px 10px 30px;
      text-align: center;
-     /*font-size: 100%;*/
      font-size: 1.2rem;
      font-weight: bold;
      letter-spacing: 2px;
@@ -581,7 +552,7 @@ footer ul i:hover {
 /*<----Sign up Form style ends here---->*/
 
 
-/*style for common header like Our Sweet Gallery, Our Products */
+/*Style for common header like Our Sweet Gallery, Our Products */
 .what-cake{
     font-size: 1.6rem;
 
@@ -594,8 +565,6 @@ footer ul i:hover {
     font-family: Montserrat, sans-serif;
     font-size: 1.8rem;
     text-align: center;
-    /* border-bottom: 3px solid black; */
-    /*margin-top: 4%; */
     padding-bottom: 2%;
 }
 
@@ -608,8 +577,7 @@ footer ul i:hover {
 .product-container{
     max-width: 75rem;
     margin-inline: auto; 
-    padding-inline: 1rem; 
-    /* border: 5px solid rgb(46, 46, 51); */
+    padding-inline: 1rem;
 }
 
 .product-grid { 
@@ -647,11 +615,10 @@ footer ul i:hover {
     font-family: Montserrat, sans-serif;
     letter-spacing: -.8px;
     text-align: center;
-    /* margin: .5rem .5rem 2rem; */
     padding: 1rem;
     
 }
-/* End of Style for CAKE PRODUCS ITEMS USING GRID */
+/* End of Style for CAKE PRODUCTS ITEMS USING GRID */
 
 
 
@@ -683,7 +650,6 @@ footer ul i:hover {
     .main-container { 
         margin: 2% 1% 0 1rem; 
         width: 95%;
-        /* border: 5px solid red; */
     }
     
     .producttype-grid {
@@ -766,11 +732,10 @@ footer ul i:hover {
     }
     
     footer {
-            height: 2%;
+        height: 2%;
     }
     .producttype-grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 2fr))
-
     }
 }
 
@@ -803,7 +768,7 @@ footer ul i:hover {
     }
 }
 
-/*from 520 to 320px*/
+/*For screen sizes from 520 to 320px*/
 @media screen and (max-width: 520px) and (min-width:320px) {
     #menu li {
         font-size: .7rem;
@@ -813,13 +778,11 @@ footer ul i:hover {
         font-size: 1.1rem;
         margin-top: 3%;
         padding-bottom: 1%;
-        /*border: 5px solid green;*/
-    }
-    .common-title h3 span {
-        font-size: 1.3rem;
- 
     }
 
+    .common-title h3 span {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 512px) {
@@ -841,6 +804,7 @@ footer ul i:hover {
     #logo-image {
         height: 40px;
     }
+
     #logo-name{
         margin-top: .8rem;
         font-size: .7rem;
@@ -852,18 +816,15 @@ footer ul i:hover {
     #main-content {
         top: 40px;
     }
-    #menu { /*Nav menus*/
+
+    /*Nav menus*/
+    #menu {
         font-size: .2rem;
         line-height: 40px;
         letter-spacing: 0px;
         word-spacing: 0px;
         margin-right: .5%;
-
     }
-    /*#menu li {*/
-    /*    font-size: 1rem;*/
-    /*    letter-spacing: 1px;*/
-    /*}*/
 }
 
 /* Media query for 320px - probably smallest device*/
@@ -902,8 +863,8 @@ footer ul i:hover {
     footer {
         height: 2%;
     }
+
     .producttype-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
