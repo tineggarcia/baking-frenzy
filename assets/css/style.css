@@ -834,6 +834,11 @@ footer ul i:hover {
         line-height: 48px;
     }
 
+    #menu li {
+        font-size: .7rem;
+        line-height: 2.5rem
+    }
+
     .top-button {
         margin-top: 1%;
         font-size: 1rem;
@@ -865,6 +870,6 @@ footer ul i:hover {
     }
 
     .producttype-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
     }
 }
