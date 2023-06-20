@@ -1,15 +1,15 @@
-# **_Baking Frenzy Cake_**
+# **_Baking Frenzy Cakes_**
 
 Baking Frenzy Cakes is a family owned small business that offers customers a variety of baked goods, 
-specialising in not only gorgeous looking custom cakes but scrumptious too, to tailor everybody's needs 
-and any occasion. Baking Frenzy Cakes makes all your cake dreams a reality through passion that motivates
-in creating your dream cakes however small or big your occasion or celebration is. This website will help 
-customers who are in search of that special cake in mind for someone special for whatever occasion. The 
-website includes a display of an extensive mouth-watering gallery of the cake artist's works that could give 
-the customer an inspiration that could help in deciding and designing that dream cake. Customers can expect 
-the artists' great workmanship and great attention to details, satisfaction is always guaranteed. On this 
-website, cakes or baked goods are also categorised by type and a clear description of the products are 
-provided all for ease of navigation. 
+specialising in not only gorgeous-looking custom cakes but scrumptious too, to tailor everybody's needs 
+in any occasion. Baking Frenzy Cakes makes all your cake dreams a reality, through passion that 
+motivates the cake artist's to create an edible masterpiece no matter how small or big your occasion or 
+celebration is. This website will help customers who are in search of that special cake in mind for someone 
+special for whatever occasion. The website includes a display of an extensive mouth-watering gallery of the 
+cake artist's works that could give the customer an inspiration that could help in deciding and designing that 
+dream cake. Customers can expect the artists' great workmanship and great attention to details, satisfaction is 
+always guaranteed. On this website, cakes or baked goods are also categorised by type and a clear description of 
+the products are provided all for ease of navigation. 
 
 Explore the world of cakes at <a href="https://tineggarcia.github.io/baking-frenzy/index.html" target="_blank" rel="noopener">Baking Frenzy Cakes</a>
 
@@ -54,8 +54,8 @@ Explore the world of cakes at <a href="https://tineggarcia.github.io/baking-fren
 
 * As a user I want to be able to straight away tell what the website is all about. 
 * As a user I want the website to be inviting and will entice me to explore the website more.
-* As a user I want to find what I am looking for through smooth and easy navigation.   
-* As a user I want to be satisfied with the amount of information I have acquired from the website  or meet my expectations.
+* As a user I want to be able to find what I am looking for through smooth and easy navigation.   
+* As a user I want to be satisfied with the amount of information I have acquired from the website or meet my expectations.
 * As a user I want to understand the purpose of the website and what it has to offer upon loading it or just by a few clicks. 
 * As a user I want to be able to see the available items that are available for the consumer on the website. 
 * As a user I want to enjoy navigating through the website and will keep my interest as I go through the site.
@@ -119,7 +119,7 @@ On some of my header text, I used them together side by side to create a modern 
       I have chosen the following colour scheme in various shades of pink and red as I think 
   most of the time cakes are associated with pink, as cakes normally adored (not only consumed)
   by ladies and girls. I chose red, not bright red though, but more of brownish red to add in 
-  contrast to pink, also red is my personal favourite hence I included it. I may have used 
+  contrast to pink, also red is my personal favourite hence I have included it. I may have used 
   different RGB colors, but they all still fall on the same colour scheme, it may just look 
   different at some point since I change the opacity for some to offer a more warm look.  I 
   steered away from vibrant and fun colours as I want to maintain a calm and warm atmosphere
@@ -156,8 +156,8 @@ Navigation bar was made using Flex for ease of manipulation.
 I find really enticing for the users. A small reddish overlay was placed on top 
 of the hero image, to create a bit of opacity to some parts of the image, plus 
 it serves as the container frame for the Welcome text and the motto of Baking 
-Frenzy. Located at the bottom of the screen, the cupcake icon serves as the 
-shortcut to the Cake Products selection. 
+Frenzy for easy readability and provides emphasis on it. Located at the bottom of 
+the screen, the cupcake icon serves as the shortcut to the Cake Products selection. 
 
 ![Hero Section](readme-images/welcome.png)
 
@@ -172,7 +172,7 @@ that they could take, like clicking onto the cupcake icon to answer that questio
 
 * ### About Us
     * The About Us section displays some information like background/history
-of Baking Frenzy Cakes, of what led the start of it.  Lastly, the contact 
+of Baking Frenzy Cakes, of what led the start of it.
     * Just to be able to include a video element on the site, a short clip of the
 baker frosting the cake is added and I think somehow entertains the user for a good
 bit.
@@ -180,7 +180,7 @@ bit.
     * A photo of the entry to the competition was also placed to add some truth 
 to what has been claimed to prove that such distinction did happen really. 
     * Address and Contact number can be found on this section too.  
-    * Lastly I added an image of the map location to give the users an idea of the location.
+    * Lastly, I added an image of the map location to give the users an idea of the location.
 
 ![About-Us image](readme-images/aboutus.png)
 
@@ -191,7 +191,7 @@ to what has been claimed to prove that such distinction did happen really.
 
     * Footer sits on the same background color as the header to keep consistency on the colour
 scheme and design of the website.
-    * The footer basically contains all Baking Frenzy Cake's social media accounts. Obviously 
+    * The footer basically contains all Baking Frenzy Cake's social media accounts. Obviously, 
 each icon diverts the webpage that corresponds to the selected. 
 
 ![Footer image](readme-images/footer.png)
@@ -225,7 +225,7 @@ possibilities.
   
     * The testimonials display the feedback previous customers have given Baking Frenzy Cakes.
     * Each testimonial shows the photo of the cake the customers have ordered plus their feedback.
-    * I have included three(3) testimonials at the moment, which I believe are fair enough.
+    * I have included three(3) testimonials at the moment, which I believe sufficient.
     * I have used a grid here to create these testimonials for easy layout and easy responsiveness.
     * I designed each testimonial in a box, with a shadow look border to give a classy feel and provide
       emphasis on it.
@@ -366,6 +366,6 @@ support. Last but not the least, to my better half Neil for being so 100%
 on board with me, rain or shine, always has supported and helped in any 
 way he can. I couldn't have done this without him. 
 
-Christine Garcia 2022
+Christine Garcia 2023
 
 [Back to top](<#contents>)
